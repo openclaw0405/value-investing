@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fbff"/></linearGradient></defs>
+<rect width="980" height="420" rx="22" fill="url(#bg)"/>
+<text x="78" y="36" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700" fill="#162033">Goodbaby 歷史 PB 走勢（2016–2026現價）</text>
+<text x="78" y="58" font-family="Inter,Arial,sans-serif" font-size="13" fill="#5f6f85">年末 / 目前點位示範圖；可更清楚看見由高估值平台走向低 PB 常態</text>
+<line x1="78" y1="358.0" x2="952" y2="358.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="66" y="362.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">0.0x</text>
+<line x1="78" y1="286.5" x2="952" y2="286.5" stroke="#dbe5f1" stroke-width="1"/>
+<text x="66" y="290.5" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">0.4x</text>
+<line x1="78" y1="215.0" x2="952" y2="215.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="66" y="219.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">0.9x</text>
+<line x1="78" y1="143.5" x2="952" y2="143.5" stroke="#dbe5f1" stroke-width="1"/>
+<text x="66" y="147.5" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">1.3x</text>
+<line x1="78" y1="72.0" x2="952" y2="72.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="66" y="76.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">1.7x</text>
+<line x1="78" y1="307.8" x2="952" y2="307.8" stroke="#94a3b8" stroke-dasharray="6 6" stroke-width="1.2"/>
+<text x="952" y="299.8" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#64748b">中位數 0.3x</text>
+<polyline points="78.0,107.6 165.4,102.6 252.8,222.9 340.2,280.6 427.6,311.9 515.0,310.2 602.4,320.1 689.8,330.0 777.2,305.3 864.6,310.2 952.0,318.5" fill="none" stroke="#0f766e" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.0" cy="107.6" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<text x="78.0" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2016</text>
+<circle cx="165.4" cy="102.6" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<circle cx="252.8" cy="222.9" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<text x="252.8" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#94a3b8">18</text>
+<circle cx="340.2" cy="280.6" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<circle cx="427.6" cy="311.9" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<text x="427.6" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#94a3b8">20</text>
+<circle cx="515.0" cy="310.2" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<text x="515.0" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2021</text>
+<circle cx="602.4" cy="320.1" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<text x="602.4" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#94a3b8">22</text>
+<circle cx="689.8" cy="330.0" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<circle cx="777.2" cy="305.3" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<text x="777.2" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="11" fill="#94a3b8">24</text>
+<circle cx="864.6" cy="310.2" r="4.2" fill="#0f766e" stroke="#ffffff" stroke-width="2"/>
+<circle cx="952.0" cy="318.5" r="6" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+<text x="952.0" y="396" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2026</text>
+<rect x="898.0" y="276.5" width="108" height="28" rx="14" fill="#dc2626" opacity="0.12"/>
+<text x="952.0" y="295.5" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#dc2626">目前 0.2x</text>
+<text x="952" y="408" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="11" fill="#94a3b8">示範版：目前以年末/年內代表點重建，之後可升級為 monthly time-series</text>
+</svg>

@@ -1,0 +1,172 @@
+:root {
+  --bg: #f5f7fb;
+  --bg-accent: #eef4ff;
+  --panel: rgba(255, 255, 255, 0.92);
+  --panel-2: #f4f7fb;
+  --text: #162033;
+  --muted: #5f6f85;
+  --line: rgba(22, 32, 51, 0.09);
+  --accent: #2563eb;
+  --accent-2: #5b6fdc;
+  --shadow: 0 18px 40px rgba(43, 64, 103, 0.10);
+  --shadow-soft: 0 8px 20px rgba(43, 64, 103, 0.08);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, #ffffff 0%, var(--bg-accent) 28%, var(--bg) 62%),
+    linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+  color: var(--text);
+  line-height: 1.75;
+}
+.shell {
+  width: min(1400px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 24px 0 48px;
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 24px;
+}
+.sidebar {
+  position: sticky;
+  top: 16px;
+  align-self: start;
+}
+.brand {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+.sidebar-card, .report-card {
+  background: var(--panel);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+.sidebar-card {
+  padding: 18px 18px;
+  margin-bottom: 16px;
+}
+.eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  margin-bottom: 10px;
+}
+.sidebar h1 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.2;
+}
+.subtitle {
+  color: var(--muted);
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.subtitle strong { color: var(--text); font-weight: 600; }
+.toc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.toc a {
+  color: var(--text);
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.toc a:hover { background: #edf3ff; color: #0f172a; }
+.toc-level-3, .toc-level-4 { margin-left: 14px; color: var(--muted) !important; }
+.meta p { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+.report-card {
+  padding: 40px clamp(20px, 4vw, 48px);
+}
+.report-card h1 { font-size: clamp(34px, 4vw, 46px); margin: 0 0 14px; line-height: 1.15; }
+.report-card h2 {
+  margin-top: 44px;
+  padding-top: 14px;
+  font-size: 28px;
+  border-top: 1px solid var(--line);
+}
+.report-card h3 { margin-top: 28px; font-size: 21px; color: #17315f; }
+.report-card h4 { margin-top: 24px; font-size: 17px; color: #264574; }
+.report-card p, .report-card li { font-size: 17px; }
+.report-card ul, .report-card ol { padding-left: 22px; }
+.report-card li + li { margin-top: 8px; }
+.list-item-note { margin-top: 6px; color: var(--text); }
+.report-card li > ul, .report-card li > ol { margin-top: 10px; }
+.report-card strong { color: #0f172a; }
+.report-card a { color: var(--accent); }
+.report-card code {
+  background: #eef4ff;
+  border: 1px solid #d8e5ff;
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-size: 0.92em;
+}
+.report-figure {
+  margin: 20px 0 28px;
+  padding: 18px;
+  background: #fbfcfe;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow-soft);
+}
+.report-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: white;
+}
+.report-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.table-wrap {
+  overflow-x: auto;
+  margin: 18px 0 24px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 640px;
+  background: #ffffff;
+}
+th, td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+th {
+  background: #f4f7fb;
+  color: #334155;
+  font-size: 14px;
+}
+tbody tr:nth-child(even) { background: #fbfcfe; }
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 30px 0;
+}
+@media (max-width: 980px) {
+  .shell { grid-template-columns: 1fr; }
+  .sidebar { position: static; }
+}

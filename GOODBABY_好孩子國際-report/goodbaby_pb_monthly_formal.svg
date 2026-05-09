@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="460" viewBox="0 0 1100 460">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fbff"/></linearGradient></defs>
+<rect width="1100" height="460" rx="24" fill="url(#bg)"/>
+<text x="80" y="38" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#162033">Goodbaby 月度 PB 估值圖（正式版）</text>
+<text x="80" y="60" font-family="Inter,Arial,sans-serif" font-size="13" fill="#5f6f85">2016-04 至 2026-04；以月度股價重建，較年末點位更能反映估值壓縮與常態區</text>
+<rect x="80" y="284.4" width="992" height="79.7" fill="#0f766e" opacity="0.10" rx="10"/>
+<line x1="80" y1="396.0" x2="1072" y2="396.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="68" y="400.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">0.0x</text>
+<line x1="80" y1="316.0" x2="1072" y2="316.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="68" y="320.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">0.6x</text>
+<line x1="80" y1="236.0" x2="1072" y2="236.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="68" y="240.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">1.2x</text>
+<line x1="80" y1="156.0" x2="1072" y2="156.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="68" y="160.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">1.9x</text>
+<line x1="80" y1="76.0" x2="1072" y2="76.0" stroke="#dbe5f1" stroke-width="1"/>
+<text x="68" y="80.0" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2.5x</text>
+<line x1="80" y1="364.1" x2="1072" y2="364.1" stroke="#94a3b8" stroke-dasharray="3 6" stroke-width="1.2"/>
+<text x="1072" y="356.1" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#94a3b8">Q1 0.2x</text>
+<line x1="80" y1="352.9" x2="1072" y2="352.9" stroke="#64748b" stroke-dasharray="6 6" stroke-width="1.2"/>
+<text x="1072" y="344.9" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#64748b">中位數 0.3x</text>
+<line x1="80" y1="284.4" x2="1072" y2="284.4" stroke="#94a3b8" stroke-dasharray="3 6" stroke-width="1.2"/>
+<text x="1072" y="276.4" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" fill="#94a3b8">Q3 0.9x</text>
+<polyline points="80.0,160.2 88.3,138.5 96.5,200.4 104.8,203.2 113.1,188.4 121.3,176.3 129.6,190.6 137.9,204.2 146.1,192.8 154.4,210.8 162.7,206.4 170.9,189.4 179.2,207.0 187.5,192.0 195.7,220.2 204.0,188.1 212.3,169.7 220.5,162.1 228.8,164.8 237.1,169.2 245.3,163.2 253.6,134.4 261.9,146.4 270.1,105.1 278.4,200.8 286.7,207.1 294.9,208.6 303.2,233.9 311.5,269.0 319.7,272.5 328.0,300.1 336.3,285.5 344.5,299.0 352.8,300.1 361.1,284.4 369.3,306.1 377.6,304.5 385.9,322.1 394.1,323.4 402.4,329.9 410.7,334.9 418.9,347.6 427.2,349.2 435.5,334.4 443.7,325.0 452.0,337.3 460.3,341.4 468.5,361.1 476.8,364.3 485.1,370.7 493.3,361.1 501.6,344.3 509.9,350.3 518.1,357.1 526.4,356.7 534.7,355.5 542.9,353.5 551.2,356.7 559.5,348.3 567.7,338.6 576.0,330.5 584.3,307.9 592.5,332.9 600.8,332.5 609.1,350.5 617.3,354.4 625.6,356.2 633.9,355.8 642.1,360.8 650.4,358.3 658.7,362.9 666.9,360.1 675.2,362.6 683.5,359.9 691.7,362.2 700.0,365.2 708.3,369.3 716.5,370.6 724.8,379.3 733.1,377.3 741.3,375.0 749.6,370.6 757.9,373.3 766.1,375.6 774.4,375.8 782.7,374.7 790.9,375.8 799.2,375.1 807.5,376.2 815.7,378.9 824.0,381.5 832.3,375.8 840.5,369.6 848.8,374.3 857.1,372.1 865.3,372.1 873.6,371.0 881.9,376.4 890.1,378.4 898.4,372.8 906.7,372.8 914.9,363.3 923.2,365.1 931.5,363.7 939.7,364.1 948.0,356.1 956.3,359.7 964.5,346.3 972.8,357.1 981.1,352.9 989.3,357.0 997.6,355.1 1005.9,341.8 1014.1,348.4 1022.4,351.8 1030.7,352.9 1038.9,354.4 1047.2,355.9 1055.5,356.6 1063.7,360.0 1072.0,365.2" fill="none" stroke="#0f766e" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="80.0" y1="402" x2="80.0" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="80.0" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2016</text>
+<line x1="179.2" y1="402" x2="179.2" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="179.2" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2017</text>
+<line x1="278.4" y1="402" x2="278.4" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="278.4" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2018</text>
+<line x1="377.6" y1="402" x2="377.6" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="377.6" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2019</text>
+<line x1="476.8" y1="402" x2="476.8" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="476.8" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2020</text>
+<line x1="576.0" y1="402" x2="576.0" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="576.0" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2021</text>
+<line x1="675.2" y1="402" x2="675.2" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="675.2" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2022</text>
+<line x1="774.4" y1="402" x2="774.4" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="774.4" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2023</text>
+<line x1="873.6" y1="402" x2="873.6" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="873.6" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2024</text>
+<line x1="972.8" y1="402" x2="972.8" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="972.8" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2025</text>
+<line x1="1072.0" y1="402" x2="1072.0" y2="396" stroke="#e6edf7" stroke-width="1"/>
+<text x="1072.0" y="438" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" fill="#6b7b91">2026</text>
+<circle cx="1072.0" cy="365.2" r="6.5" fill="#dc2626" stroke="#fff" stroke-width="2"/>
+<rect x="1006.0" y="319.2" width="132" height="30" rx="15" fill="#dc2626" opacity="0.12"/>
+<text x="1072.0" y="338.2" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700" fill="#dc2626">2026-04 目前 0.2x</text>
+<text x="80" y="448" font-family="Inter,Arial,sans-serif" font-size="11" fill="#94a3b8">方法：月度股價 × 最近可得全年 EPS / BVPS 錨點（假設每年 4 月起切換至上一財年完整數字）</text>
+</svg>
