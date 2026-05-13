@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>694.HK 北京首都机场 — Kenneth Stock Method</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #e6edf3; line-height: 1.6; padding: 2rem; }
+.container { max-width: 900px; margin: 0 auto; }
+h1 { color: #f0883e; font-size: 1.8rem; margin-bottom: 0.5rem; }
+h2 { color: #58a6ff; font-size: 1.3rem; margin: 1.5rem 0 0.75rem; border-bottom: 1px solid #30363d; padding-bottom: 0.3rem; }
+h3 { color: #d2a8ff; font-size: 1.1rem; margin: 1rem 0 0.5rem; }
+.meta { color: #8b949e; font-size: 0.85rem; margin-bottom: 1.5rem; }
+strong { color: #f0883e; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.85rem; }
+th { background: #161b22; color: #58a6ff; padding: 8px; text-align: left; border: 1px solid #30363d; }
+td { padding: 8px; border: 1px solid #30363d; color: #e6edf3; }
+tr:nth-child(even) { background: #161b22; }
+code { background: #161b22; padding: 2px 6px; border-radius: 4px; font-size: 0.85rem; }
+pre { background: #161b22; padding: 1rem; border-radius: 8px; overflow-x: auto; margin: 1rem 0; }
+blockquote { border-left: 3px solid #f0883e; padding-left: 1rem; margin: 1rem 0; color: #8b949e; }
+hr { border: none; border-top: 1px solid #30363d; margin: 1.5rem 0; }
+.red { color: #ff7b72; }
+.green { color: #7ee787; }
+.yellow { color: #e3b341; }
+</style>
+</head>
+<body>
+<div class="container">
+<p><strong>文件名：</strong> 694_BEIJING_CAPITAL_AIRPORT_kenneth-stock-method.md
+<strong>保存路徑：</strong> ~/.openclaw/workspace/analysis/
+<strong>分析日期：</strong> 2026-05-13
+<strong>分析方法：</strong> Kenneth Stock Method（15 Section Framework）
+<strong>數據來源：</strong> etnet realtime (2026-05-13 18:00), 新浪财经/腾讯新闻 FY2019-FY2025年度业绩, Futu News, Google News RSS</p>
+<hr />
+<h1>694.HK 北京首都机场股份 — Kenneth Stock Method 分析报告</h1>
+<p><strong>Price:</strong> HKD 1.85 (2026-05-13, etnet realtime)
+<strong>Market Cap:</strong> HKD 8.47B ≈ RMB 7.7B
+<strong>PB:</strong> 0.60x (FY2025 NAV HKD 3.09)
+<strong>Note: FY2025 net loss confirmed — P/E N/A; no dividend</strong></p>
+<hr />
+<h2>1. Executive Summary</h2>
+<p><strong>立场：观望 / Value Trap Risk — 深度價值陷阱候選</strong></p>
+<p>北京首都机场（694.HK）股价 HKD 1.85，PB 仅 0.60x，表面看是深度折让。但经过 Kenneth Stock Method 四 Gate 检验后，结论令人警惕：</p>
+<ul>
+<li><strong>Gate 1（业务质量）：差</strong> — 大兴机场分流已成永久性结构打击；首都机场旅客量71M，仅恢复至疫前71%；客流量结构性低于同业</li>
+<li><strong>Gate 2（问题诊断）：差</strong> — 亏损根本原因是 Daxing 分流（非疫情一次性）+ 成本刚性问题；即使客流恢复亦难盈利（FY2025客流+5%但仍亏损6.3亿）</li>
+<li><strong>Gate 3（资产负债表）：差</strong> — 流动比率仅0.22x，净债务 RMB 9.64B，Equity 5年蒸发36%（20.2B→12.9B）；流动性极度紧张</li>
+<li><strong>Gate 4（估值差距）：中性偏淡</strong> — PB 0.60x 看似便宜，但若 Equity 继续侵蚀（每年亏5-7亿），5年后可能变净值为负</li>
+</ul>
+<p><strong>最大风险：</strong> 股价便宜是假象 — 资产在消耗（折旧+亏损），NAV 每年缩水约5-7亿，PB 分子端（股价）不跌是因为市場憧憬免稅重寫。催化剂存在，但基本面是负向正交。</p>
+<p><strong>可能催化劑：</strong> 新免稅協議簽訂 + 國際航班持續恢復 → 2027年或可盈利，PB 可能修復至0.8-1.0x
+<strong>最大問題：</strong> 流動性 + 結構性客流損失 + 無法控制成本 → 可能是下一個"價值陷阱經典案例"</p>
+<hr />
+<h2>2. Company Overview</h2>
+<p>北京首都国际机场股份有限公司（694.HK）运营北京首都国际机场（PEK），曾是全球最繁忙机场之一（疫前客流 ~100M）。</p>
+<p><strong>业务分部：</strong>
+- 航空性收入：飞机起降费、旅客服务费、停机费
+- 非航空性收入：免税店特许经营、零售、餐饮、广告、贵宾服务、停车场</p>
+<p><strong>疫前（2019）业务结构（Revenue RMB 10.81B）：</strong>
+- 航空性收入：40.9亿（37.8%）
+- 非航空性收入：67.2亿（62.2%）— 免税+零售是核心利润来源</p>
+<p><strong>疫后（FY2025，Revenue RMB 5.63B）：</strong>
+- 旅客吞吐量 70.74M（疫前 100M 的 71%）
+- 航空性收入约 26.68亿（估算）
+- 非航空性收入约 28.25亿（估算）
+- 成本高企：经营费用 57.84亿 &gt; 收入 56.32亿 → 亏损必然</p>
+<p><strong>股权结构：</strong> 国有控股；主要股东为首都机场集团</p>
+<hr />
+<h2>3. What the Market is Worried About</h2>
+<p><strong>三大核心担忧：</strong></p>
+<p><strong>① 结构性客流损失（永久性 ⚠️）</strong>
+北京大兴机场（PKX）2019年9月投入运营，分流首都机场大量国内航班。疫前首都机场年客流约100M，疫后仅恢复至70M（71%）。市场担忧：即使国际航班恢复，首都机场的国内航班份额已被大兴永久性夺走。</p>
+<p><strong>② 持续亏损 + 流动性危机（结构性 ⚠️）</strong>
+FY2020至FY2025连续6年亏损，累计净亏约 RMB 115亿。FY2025经营溢利率为负（-2.7%），经营费用 57.84亿 &gt; 收入 56.32亿。流动比率仅0.22x（&lt;1.0是危险信号），净债务 RMB 9.64B，债务/权益比 89%。</p>
+<p><strong>③ 成本刚性问题（fixable but slow ⚠️）</strong>
+机场成本高度固定（折旧+人工+维护），收入端恢复远慢于成本端下降。成本收入比 &gt;100%，需要客流显著增长才能覆盖成本。</p>
+<p><strong>④ 免税业务不确定性（机会风险 ⚠️）</strong>
+首都机场免税协议已于近年到期，新协议尚未完全落地。免税是疫前非航空收入核心（2019年约25.97亿），新协议条款将显著影响盈利恢复路径。</p>
+<hr />
+<h2>4. Latest Results Snapshot</h2>
+<p><strong>FY2025（2026年3月26日发布，确认数据）：</strong>
+- Revenue: RMB 56.32亿（同比+2.5%）
+- 经营费用: RMB 57.84亿（同比-1.2%）
+- 税后净亏损: RMB 6.30亿（同比减亏54.7%）
+- EPS: RMB -0.14
+- 旅客吞吐量: 70.74M（同比+5%）
+- 飞机起降: 442,046架次（同比+2%）
+- 货邮: 1.55M吨（同比+7.5%）
+- 末期股息: <strong>0</strong>（不派发）</p>
+<p><strong>Q1 2026（2026年4月23日发布）：</strong>
+- Revenue: RMB 14.13亿（同比+5.1%）
+- 净利润: RMB 926.6万（去年同期亏损1.25亿，<strong>实现扭亏</strong>）
+- 营业成本: 12亿（同比下降）
+- 营业亏损: 464万（去年同期1.2亿亏损）</p>
+<p><strong>FY2024（对比锚点）：</strong>
+- Revenue: RMB 54.92亿（同比+20.5%）
+- 净亏损: RMB 13.90亿（同比减亏18.1%）
+- 旅客: 67.37M（同比+27.4%）</p>
+<hr />
+<h2>5. Current Valuation Snapshot</h2>
+<p><strong>as of 2026-05-13, price HKD 1.85 (etnet realtime)</strong></p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Price</td>
+<td>HKD 1.85</td>
+<td>Live, 2026-05-13</td>
+</tr>
+<tr>
+<td>Market Cap</td>
+<td>HKD 8.47B</td>
+<td>4,579M shares × HKD 1.85</td>
+</tr>
+<tr>
+<td>FY2025 NAV/share</td>
+<td>HKD 3.09</td>
+<td>(RMB 2.808 / 0.91)</td>
+</tr>
+<tr>
+<td>PB</td>
+<td><strong>0.60x</strong></td>
+<td>Price ÷ NAV HKD</td>
+</tr>
+<tr>
+<td>FY2025 EPS</td>
+<td>RMB -0.14</td>
+<td>Net loss, no P/E</td>
+</tr>
+<tr>
+<td>FY2025 EBITDA</td>
+<td>~RMB 1,318M</td>
+<td>EBITDA margin 23.4%</td>
+</tr>
+<tr>
+<td>EV/EBITDA</td>
+<td>~11.9x</td>
+<td>EV HKD 17.2B</td>
+</tr>
+<tr>
+<td>Net Debt</td>
+<td>RMB 9,635M (HKD 10.6B)</td>
+<td>D/Equity 89%</td>
+</tr>
+<tr>
+<td>Dividend Yield</td>
+<td>0%</td>
+<td>No dividend since FY2020</td>
+</tr>
+<tr>
+<td>Current Ratio</td>
+<td>0.22x</td>
+<td>⚠️ &lt; 1.0 liquidity stress</td>
+</tr>
+<tr>
+<td>52w High</td>
+<td>~HKD 3.1-3.5</td>
+<td>(price has halved)</td>
+</tr>
+<tr>
+<td>52w Low</td>
+<td>~HKD 1.5-1.6</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> etnet NBV/share = RMB 2.808 per share = HKD 3.09. Market cap HKD 8.47B vs NAV attributable HKD 14.13B → 40% discount to book.</p>
+<hr />
+<h2>6. Historical Valuation Context</h2>
+<p><strong>PB Band (using attributable NAV per share in HKD):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Year</th>
+<th>NAV/Share (HKD)</th>
+<th>Price (HKD)</th>
+<th>PB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021</td>
+<td>4.84</td>
+<td>~3.5-4.5</td>
+<td>0.72-0.93x</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>3.98</td>
+<td>~2.5-3.5</td>
+<td>0.63-0.88x</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>3.57</td>
+<td>~2.8-3.5</td>
+<td>0.80-0.98x</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>3.23</td>
+<td>~2.8-3.5</td>
+<td>0.87-1.08x</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>3.09</td>
+<td>~1.85</td>
+<td><strong>0.60x</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>PB在历史低位，但估值低有合理原因（NAV在消耗）。</strong></p>
+<p><strong>PE：</strong> N/A（持续亏损）
+<strong>EV/EBITDA：</strong> ~11.9x（EBITDA基础薄弱，23%边际）</p>
+<p><strong>同业对比（国际机场 PB）：</strong>
+- 上海机场（600009）：约 2-3x（国际航线恢复更好）
+- 白云机场：约 1-1.5x
+首都机场 0.60x 的折让反映流动性风险 + 结构性竞争劣势。</p>
+<hr />
+<h2>6b. Real-Time Market Context（Futu News）</h2>
+<p><strong>最新消息摘要：</strong>
+1. <strong>Q1 2026扭亏</strong>（2026-04-23）：净利润926.6万元，去年同期亏损1.25亿。营业成本从13亿降至12亿，亏损显著收窄。分析师认为盈利能力正逐步释放。
+2. <strong>Mitsubishi UFJ增持</strong>（2026-03）：MUFG两次增持共约233万股，平均价约HKD 2.81-3.03。属战略或财务投资者长期布局。
+3. <strong>王府井中标首都机场免税区</strong>（2025）：王府井中标T2航站楼免税店经营，显示新免税协议陆续落地。
+4. <strong>2025末期股息：0</strong>（2026年5月）：董事会不建议派发末期股息。
+5. <strong>新任董事长</strong>（2025年2月）：董事长变更，属正常换届。</p>
+<p><strong>市场情绪（FuTu News Sentiment）：</strong>
+- 机构对首都机场长期价值有一定兴趣（MUFG增持）
+- 分析师（东兴证券）认为：国际航空枢纽地位稳固，新免税协议有望带来利润增量
+- 摩根士丹利（2026年2月）：FY2025净亏损远超预期（市场预测2.16亿 vs 实际6-7.6亿），认为股价仍有下行空间
+- Q1 2026扭亏为短线正面催化劑</p>
+<p><strong>资本流向：</strong> MUFG 增持约 HKD 6-7M 股份（两次合计约233万股 × HKD 2.8-3.0），属象征性配置，非主力。</p>
+<p><strong>技术面：</strong> 股价从52w高 ~HKD 3.0+ 回落至1.85，PB从1.0x回落至0.60x。超卖区域。</p>
+<hr />
+<h2>7. Ten-Year Financial Perspective</h2>
+<p><strong>表1（損益表核心）</strong> — RMB millions</p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>收入</th>
+<th>經營費用</th>
+<th>經營溢利</th>
+<th>EBITDA</th>
+<th>淨利潤</th>
+<th>EPS(RMB)</th>
+<th>DPS(RMB)</th>
+<th>派息比</th>
+<th>備註</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2016</td>
+<td>8,729</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>1,781</td>
+<td>0.41</td>
+<td>0.102</td>
+<td>25%</td>
+<td>疫前正常年份</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>9,574</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>2,600</td>
+<td>0.60</td>
+<td>0.153</td>
+<td>25%</td>
+<td>疫前正常年份</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>11,263</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>2,872</td>
+<td>0.66</td>
+<td>0.162</td>
+<td>25%</td>
+<td>歷史高峰</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>10,810</td>
+<td>7,350</td>
+<td>—</td>
+<td>—</td>
+<td>2,419</td>
+<td>0.55</td>
+<td>0.162</td>
+<td>30%</td>
+<td>Daxing 9月分流</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>~5,000 [E]</td>
+<td>~6,500 [E]</td>
+<td>—</td>
+<td>—</td>
+<td><strong>-2,035</strong></td>
+<td>—</td>
+<td>0</td>
+<td>N/A</td>
+<td>COVID+Daxing双重打擊</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>~5,200 [E]</td>
+<td>~6,800 [E]</td>
+<td>—</td>
+<td>—</td>
+<td><strong>-2,117</strong></td>
+<td>—</td>
+<td>0</td>
+<td>N/A</td>
+<td>疫情持續</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>~4,000 [E]</td>
+<td>~6,000 [E]</td>
+<td>—</td>
+<td>—</td>
+<td><strong>-3,500</strong></td>
+<td>—</td>
+<td>0</td>
+<td>N/A</td>
+<td>最差年份+減值</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>~4,500 [E]</td>
+<td>~5,800 [E]</td>
+<td>—</td>
+<td>—</td>
+<td><strong>-1,828</strong></td>
+<td>—</td>
+<td>0</td>
+<td>N/A</td>
+<td>恢復起點</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>5,492</td>
+<td>5,857</td>
+<td>—</td>
+<td>1,162</td>
+<td><strong>-1,390</strong></td>
+<td>-0.30</td>
+<td>0</td>
+<td>N/A</td>
+<td>客流+27%</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>5,632</td>
+<td>5,784</td>
+<td>-152</td>
+<td>1,318</td>
+<td><strong>-630</strong></td>
+<td>-0.14</td>
+<td>0</td>
+<td>N/A</td>
+<td>减亏54.7%</td>
+</tr>
+<tr>
+<td>2026E</td>
+<td>~5,900</td>
+<td>~5,750</td>
+<td>~150</td>
+<td>~1,500</td>
+<td><strong>~+100</strong> [E]</td>
+<td>~+0.02</td>
+<td>0</td>
+<td>N/A</td>
+<td>Q1已盈利926萬</td>
+</tr>
+<tr>
+<td>2027E</td>
+<td>~6,300</td>
+<td>~5,700</td>
+<td>~600</td>
+<td>~1,700</td>
+<td><strong>~+500</strong> [E]</td>
+<td>~+0.11</td>
+<td>~0.05</td>
+<td>~45%</td>
+<td>免稅協議假設</td>
+</tr>
+</tbody>
+</table>
+<p><strong>表2（現金流與資產負債表）</strong> — RMB millions</p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>CapEx</th>
+<th>經營現金流</th>
+<th>FCF</th>
+<th>總權益(Attr.)</th>
+<th>淨債務</th>
+<th>淨債務/EBITDA</th>
+<th>負債/權益</th>
+<th>庫存回購</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>20,174,808</td>
+<td>5,786,656</td>
+<td>—</td>
+<td>39.7%</td>
+<td>無</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>16,604,920</td>
+<td>8,185,213</td>
+<td>—</td>
+<td>58.9%</td>
+<td>無</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>14,887,803</td>
+<td>9,551,290</td>
+<td>—</td>
+<td>72.8%</td>
+<td>無</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>—</td>
+<td>97,602</td>
+<td>—</td>
+<td>13,455,878</td>
+<td>10,246,922</td>
+<td>8.8x</td>
+<td>86.8%</td>
+<td>無</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>12,858,193</td>
+<td>9,635,254</td>
+<td>7.3x</td>
+<td>89.3%</td>
+<td>無</td>
+</tr>
+</tbody>
+</table>
+<p><strong>表3（估值參照）</strong></p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>股價HKD</th>
+<th>PB</th>
+<th>ROE</th>
+<th>股息率</th>
+<th>52週區間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021</td>
+<td>~4.0</td>
+<td>0.83x</td>
+<td>-9.98%</td>
+<td>~2.5%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>~3.0</td>
+<td>0.75x</td>
+<td>-19.18%</td>
+<td>0%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>~3.2</td>
+<td>0.90x</td>
+<td>-10.78%</td>
+<td>0%</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>~3.0</td>
+<td>0.93x</td>
+<td>-9.81%</td>
+<td>0%</td>
+<td>2.8-3.5</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>~2.0</td>
+<td>0.65x</td>
+<td>-4.79%</td>
+<td>0%</td>
+<td>1.5-3.0</td>
+</tr>
+<tr>
+<td>2026*</td>
+<td>1.85</td>
+<td>0.60x</td>
+<td>—</td>
+<td>0%</td>
+<td>1.5-3.1</td>
+</tr>
+</tbody>
+</table>
+<p>*as of 2026-05-13</p>
+<p><strong>表4（關鍵趨勢摘要）</strong></p>
+<table>
+<thead>
+<tr>
+<th>維度</th>
+<th>數值</th>
+<th>評價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>收入CAGR（2016→2025）</td>
+<td>-4.7%</td>
+<td>結構性下滑</td>
+</tr>
+<tr>
+<td>收入CAGR（2022→2025）</td>
+<td>+12.0%</td>
+<td>疫后恢復中</td>
+</tr>
+<tr>
+<td>淨利潤（2018→2025）</td>
+<td>+2.9B → -0.6B</td>
+<td>盈转亏后修复中</td>
+</tr>
+<tr>
+<td>毛利率區間</td>
+<td>&lt;0%（费用&gt;收入）</td>
+<td>結構性虧損</td>
+</tr>
+<tr>
+<td>派息比率</td>
+<td>0%（2020-2025）</td>
+<td>停止派息</td>
+</tr>
+<tr>
+<td>總權益變化（2021→2025）</td>
+<td>-36%（-73億）</td>
+<td>資本持續侵蝕</td>
+</tr>
+<tr>
+<td>淨債務/EBITDA</td>
+<td>7.3x（2025）</td>
+<td>槓桿偏高</td>
+</tr>
+</tbody>
+</table>
+<p><strong>[E] = Estimated; [A] = Audited from etnet/annual results</strong></p>
+<hr />
+<h2>7b. Management Outlook (過去十年摘要)</h2>
+<p><strong>年度核心策略分析 — 3 columns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>年份</th>
+<th>策略主題</th>
+<th>市場環境</th>
+<th>信用信號</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2016</td>
+<td>擴張非航收入，優化免稅板塊</td>
+<td>旅客人次穩步增長，宏觀消費升級</td>
+<td>✅ 實現收入87億，增長2.6%</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>深化免稅特许经营，提升零售客單價</td>
+<td>國際旅遊強勁，消費升級加速</td>
+<td>✅ 收入96億，增長9.7%，利潤+46%</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>鞏固國際樞紐地位，優化航線結構</td>
+<td>國際航線增速高於國內，客流高峰</td>
+<td>✅ 收入歷史新高112.6億，利潤28.7億</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>應對大興機場分流，穩住基本盤</td>
+<td>Daxing 9月投產，旅客量開始流失</td>
+<td>⚠️ 收入108億（-4%），利潤24.2億（-16%）</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>抗疫減損，控制成本</td>
+<td>COVID爆發+分流，客流暴跌</td>
+<td>⚠️ 虧損20.4億，但控制及時（相對虧損規模）</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>疫情常態化運營，嚴控成本</td>
+<td>疫情防控+持續分流，客流低位</td>
+<td>⚠️ 虧損21.2億，成本剛性凸顯</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>極度壓縮成本，等待邊境開放</td>
+<td>全年疫情封控，客流歷史低位</td>
+<td>❌ 虧損35億（減值+虧損雙重打擊）</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>邊境開放準備，提升國際航線</td>
+<td>疫后恢復開始，國際航班漸增</td>
+<td>⚠️ 虧損收窄至18.3億，客流開始回升</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>客流強勁恢復，談判新免稅合約</td>
+<td>國際客流+27%，經營費用控制</td>
+<td>⚠️ 減虧至13.9億，費用仍高於收入</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>減虧為核心目標，成本控制優先</td>
+<td>客流持續恢復，新免稅陸續落地</td>
+<td>⚠️ 減虧至6.3億，Q4仍虧損1.7-2億</td>
+</tr>
+<tr>
+<td>2026</td>
+<td>實現全年盈利，恢復派息</td>
+<td>Q1扭虧，國際航班持續恢復</td>
+<td>⏳ Q1盈利926萬，需觀察持續性</td>
+</tr>
+</tbody>
+</table>
+<p><strong>承諾追蹤表 — 4 columns:</strong></p>
+<table>
+<thead>
+<tr>
+<th>承諾</th>
+<th>原始目標/時間表</th>
+<th>偏離原因</th>
+<th>評級</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2024年實現收支平衡</td>
+<td>2024年初目標</td>
+<td>客流恢復但成本剛性超預期，實際虧損13.9億</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>新免稅協議2024年落地</td>
+<td>2024年目標</td>
+<td>2025年才陸續確認（王府井中標T2），T3等仍在談</td>
+<td>⏳</td>
+</tr>
+<tr>
+<td>2025年恢復派息</td>
+<td>2025年初目標</td>
+<td>仍虧損6.3億，董事會不放息</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>旅客吞吐量恢復至疫前80%（80M）</td>
+<td>中期目標</td>
+<td>2025年僅70.7M，恢復進度低於預期</td>
+<td>⚠️</td>
+</tr>
+<tr>
+<td>國際航班份額提升</td>
+<td>持續目標</td>
+<td>國際客流恢復中，但大興分走份額難收復</td>
+<td>⚠️</td>
+</tr>
+</tbody>
+</table>
+<p><strong>十年管理層評估總結:</strong></p>
+<p>✅ <strong>值得信賴方面：</strong>
+- 成本控制有紀律：經營費用2024/2025連續兩年同比下降
+- 透明溝通：盈警、業績預告及時發布，數據披露完整
+- 流動性管理：雖然槓桿上升，但在國有背景支撐下未出現融資危機</p>
+<p>❌ <strong>值得警惕方面：</strong>
+- <strong>從未兌現任何盈利預測</strong>：2024、2025、2026年的盈利目標全部落空，管理層估計過度樂觀
+- <strong>NAV持續侵蝕</strong>：5年蒸發73億權益，幾乎是災難性的資本摧毁
+- <strong>無法控制結構性成本</strong>：機場運營成本高度固定，客流恢復到疫前仍難以覆蓋
+- <strong>免稅協議進展緩慢</strong>：2024年的核心看點（新免稅協議）拖延至2025-2026年才陸續落地</p>
+<p>📋 <strong>管理層風格標籤：</strong> 「過度承諾、執行有限」的國有管理層 — 能控制成本，但無法抵禦結構性逆風，且屢次對盈利恢復時間表過度樂觀。</p>
+<hr />
+<h2>8. ROE / Return Diagnostic</h2>
+<p><strong>DuPont Decomposition (FY2025):</strong></p>
+<p>ROAE = Net Margin × Asset Turnover × Leverage</p>
+<ul>
+<li>Net Margin: -11.2%（亏损）</li>
+<li>Asset Turnover: Revenue / Total Assets = 5,632M / 30,013M = 0.188x</li>
+<li>Leverage: Total Assets / Equity = 30,013M / 12,858M = 2.33x</li>
+<li>ROAE = -11.2% × 0.188 × 2.33 = <strong>-4.9%</strong> ✓（matches etnet data）</li>
+</ul>
+<p><strong>ROE trend (etnet):</strong>
+- FY2021: -9.98%
+- FY2022: -19.18%（资产减值重创）
+- FY2023: -10.78%
+- FY2024: -9.81%
+- FY2025: -4.79%（亏损收窄，ROE改善）</p>
+<p><strong>改善驅動因素：</strong> 亏损收窄（减亏54.7%）是ROE改善的主因，但当前 ROE 仍为负，股东权益持续被侵蚀。</p>
+<p><strong>同業ROE對比：</strong> 无可比公司用于 peer comparison（在港上市国际机场极少）；PB 0.60x 的低估值本身已反映市场对低 ROE 的定价。</p>
+<hr />
+<h2>9. Three-Statement Quality Diagnosis</h2>
+<p><strong>Cash Flow Quality:</strong>
+- FY2024经营活动现金：RMB 97.6M（ positif but tiny vs 净亏损13.9亿）
+- FY2024 Q1-Q3经营现金流：RMB 4.85亿（同比-6.92亿亏损，大幅改善）
+- FY2024 经营现金流远低于净亏损 → <strong>大量非现金减值为亏损主因</strong>（确认是减值+折旧驱动，而非经营亏损）
+- FY2025经营现金流：数据未完整披露，但 Revenue 56.32亿 vs 经营费用57.84亿 → 经营亏损仅1.52亿；净亏损6.3亿含折旧利息</p>
+<p><strong>Balance Sheet Health:</strong>
+- <strong>⚠️ 流动比率 0.22x</strong>：极度危险；流动负债（152.5亿）远超流动资产（33.7亿）
+- 净债务/EBITDA 7.3x（2025）：在亏损状态下偏高，但EBITDA为正（13.18亿）
+- 长期债务2025年从40亿降至17亿：主动缩债，但短期债务升至97.7亿 → 债务期限结构恶化
+- 股东权益持续下滑（-36% over 5年）：若亏损持续，Equity 可能持续被侵蚀</p>
+<p><strong>CapEx Sanity:</strong>
+- CapEx 数据未在 etnet 完整列出（investment properties 25.35亿呈报）
+- 机场公司CapEx高度资本密集（跑道、航站楼维护）；折旧大（每年折旧&gt;10亿）
+- 现金流不足以覆盖CapEx需求：依赖债务融资</p>
+<p><strong>综合判断：三张表质量 — 差</strong>
+- 现金流无法支撑债务 + 流动比率告急 + Equity 持续侵蚀 = 生存风险不可忽视</p>
+<hr />
+<h2>10. Business Quality and Capital Allocation Assessment</h2>
+<p><strong>Moat Analysis:</strong>
+- <strong>地理位置护城河：</strong> 北京是政治中心，国际航班有不可替代性；但大兴机场分流说明地理护城河被行政划分打破
+- <strong>特许经营权护城河：</strong> 首都机场非航空业务（免税、零售）有护城河，但护城河拥有者是首都机场这家运营商，而运营商本身受监管限制
+- <strong>规模优势：</strong> 疫前100M客流是规模优势；疫后70M，规模优势已缩水</p>
+<p><strong>Pricing Power:</strong>
+- 航空性收费：由政府监管，无定价权
+- 非航空性收费（免税等）：通过招标，有一定定价权；但竞争对手（大兴、浦东等）也在争夺品牌资源</p>
+<p><strong>Management Quality:</strong>
+- 国有体制，激励机制弱；对股价表现关注有限
+- 成本控制有成效（2024/2025费用下降），但无法根本性解决成本刚性问题</p>
+<p><strong>Buybacks / Dividends:</strong>
+- <strong>零回购</strong>（no share repurchase program）
+- <strong>零股息</strong>（2020-2025停息）
+- 资本分配几乎全部用于债务偿还和运营维持</p>
+<hr />
+<h2>11. Multi-Year Management Outlook and Credibility Check</h2>
+<p><em>See §7b Commitment Tracking Table above for full detail.</em></p>
+<p><strong>核心交叉引用：</strong> 管理層十年記錄顯示其屢次高估盈利恢復速度：2024年預測收支平衡，實際虧損13.9億；2025年預測恢復派息，實際零股息；2026年能否盈利仍是未知數。</p>
+<p><strong>結論：</strong> 管理層的可信度較低。承諾屢次落空，當前2026/2027盈利預測应保守處理。</p>
+<hr />
+<h2>12. Temporary vs Structural Diagnosis</h2>
+<table>
+<thead>
+<tr>
+<th>負面因素</th>
+<th>分類</th>
+<th>證據</th>
+<th>能否修復</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>COVID疫情</td>
+<td><strong>Temporary</strong></td>
+<td>Q1 2026已实现扭亏，旅游业复苏明确</td>
+<td>✅ 已修复（客流恢复中）</td>
+</tr>
+<tr>
+<td>國際航班恢復慢</td>
+<td><strong>Temporary</strong></td>
+<td>2024客流+27%，2025+5%；持续恢复中</td>
+<td>⏳ 预计2026-2027接近正常</td>
+</tr>
+<tr>
+<td>成本刚性问题</td>
+<td><strong>Structural</strong></td>
+<td>折旧+人工高度固定；费用57.8亿 vs 收入56.3亿</td>
+<td>⚠️ 部分fixable（控制成本），但完全修复需要客流大幅超预期</td>
+</tr>
+<tr>
+<td>大兴机场分流</td>
+<td><strong>Structural</strong></td>
+<td>首都机场客流峰100M，疫后仅70M；份额被永久夺走</td>
+<td>❌ 不可逆；份额已定</td>
+</tr>
+<tr>
+<td>流動性危機</td>
+<td><strong>Fixable</strong></td>
+<td>0.22x流动比；Q1 2026盈利是正面信号</td>
+<td>⏳ 需要持续盈利才能补充现金</td>
+</tr>
+<tr>
+<td>负债率偏高</td>
+<td><strong>Fixable</strong></td>
+<td>D/Eq 89%；若盈利恢复可偿还债务</td>
+<td>⏳ 取决于能否扭亏</td>
+</tr>
+</tbody>
+</table>
+<p><strong>核心診斷：</strong> 三個負面因素中，一個已修復（COVID），一個部分fixable（成本），一個不可逆（大兴）。<strong>大興分流是致命傷</strong> — 它讓首都機場的客流天花板永久性降低，即使行業复苏亦難以回到疫前盈利水平。</p>
+<hr />
+<h2>13. Scenario Valuation</h2>
+<p><strong>估值假設：</strong>
+- 使用 PB 估值（公司持續虧損，P/E 不適用）
+- NAV/share FY2025 = RMB 2.808 = HKD 3.09
+- 关键驱动：客流恢复程度 × 新免税协议条款</p>
+<table>
+<thead>
+<tr>
+<th>情景</th>
+<th>假設</th>
+<th>目標PB</th>
+<th>目標價(HKD)</th>
+<th>隱含回報</th>
+<th>概率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>熊市</strong></td>
+<td>客流停滯70M，新免稅協議差，繼續虧損10億+/年</td>
+<td>0.35x</td>
+<td>1.08</td>
+<td>-42%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td><strong>基準</strong></td>
+<td>客流恢復至80M（疫前80%），2027年實現微利</td>
+<td>0.60x</td>
+<td>1.85</td>
+<td>0%</td>
+<td>50%</td>
+</tr>
+<tr>
+<td><strong>牛市</strong></td>
+<td>客流恢復至90M+，新免稅協議帶來溢價，2027年利潤5億+</td>
+<td>0.90x</td>
+<td>2.78</td>
+<td>+50%</td>
+<td>25%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>當前價格：HKD 1.85 = 基準情景公允價值</strong></p>
+<p><strong>Key insight：</strong> 當前股價幾乎完全定價了「基準情景」— 要麼往好了走（+50%），要麼往差了走（-42%）。不對稱風險偏向下行。</p>
+<p><strong>估值方法補充（EV/EBITDA）：</strong>
+- FY2025 EBITDA = RMB 1,318M（23.4% margin）
+- EV = HKD 17.2B = RMB 19.0B → EV/EBITDA = 14.4x（以RMB計算）
+- 國際機場通常以 8-12x EV/EBITDA 交易 → 當前估值偏貴</p>
+<hr />
+<h2>14. Investment Fit for Kenneth-style Investing</h2>
+<p><strong>四 Gate 評估：</strong></p>
+<table>
+<thead>
+<tr>
+<th>Gate</th>
+<th>問題</th>
+<th>答案</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gate 1 業務質量</td>
+<td>北京首都機場是值得持有的業務嗎？</td>
+<td>❌ 大兴分流降低長期天花板；非航收入依賴免稅恢復</td>
+</tr>
+<tr>
+<td>Gate 2 問題診斷</td>
+<td>問題是暫時性還是結構性？</td>
+<td>⚠️ <strong>結構性為主</strong>：大興分流不可逆；成本剛性部分可fix</td>
+</tr>
+<tr>
+<td>Gate 3 存活測試</td>
+<td>能否度過弱市而不稀釋或破產？</td>
+<td>⚠️ <strong>流動性緊張</strong>：0.22x流動比；每年虧損侵蝕Equity；國有背景提供隱性擔保但非萬全</td>
+</tr>
+<tr>
+<td>Gate 4 估值差距</td>
+<td>市場折扣是否大於業務損失？</td>
+<td>⚠️ <strong>中性偏淡</strong>：PB 0.60x 看似便宜，但NAV每年侵蝕5-7億；PB可能"便宜"是因為分子（NAV）在縮水</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Kenneth風格匹配度：低</strong>
+- Kenneth 偏好的「暫時性負面因素 + 優質業務」→ 本案不滿足（結構性逆風為主）
+- Kenneth 要求「Balance Sheet Survival」→ 流動比0.22x 是紅色警示
+- Kenneth 重視「管理層信譽」→ 管理層屢次承諾落空</p>
+<p><strong>結論：不符合 Kenneth 的投資風格。</strong> 更像「深度價值陷阱」而非「深度價值機會」。</p>
+<hr />
+<h2>15. Key Monitoring Points / Thesis Breakers</h2>
+<p><strong>🔴 必須監控（Thesis Breakers）：</strong></p>
+<ol>
+<li><strong>Q2-Q4 2026 能否持續盈利？</strong> Q1扭亏是单季数据，需观察Q2-Q4持续性。若Q2-Q4再现亏损，股价可能测试 HKD 1.5 以下。</li>
+<li><strong>新免稅協議條款落實</strong> — 這是公司能否盈利的關鍵催化劑。若條款優於市場預期，股價有望重估。</li>
+<li><strong>流動比率走向</strong> — 若繼續低於0.25x，再融资压力将显现。若净债务开始下降（而非靠融资维持），则是积极信号。</li>
+<li><strong>Equity 水平</strong> — 若 Equity 跌破 RMB 10B（约 HKD 11B），NAV/share 将降至 HKD 2.4 以下；即使 PB 0.6x，股价仅 HKD 1.44。</li>
+</ol>
+<p><strong>🟡 機會催化劑（上行催化劑）：</strong></p>
+<ol>
+<li>國際航班加速恢復（2027年客流接近85-90M）→ 單客收入提升</li>
+<li>新免稅協議正式落地（王府井中標T2，T3談判中）</li>
+<li>國有資本進場支持（MUFG已增持，Others？）</li>
+<li>2027年實現有意义的盈利（RMB 5億+）→ PB可能重估至0.8-1.0x</li>
+</ol>
+<p><strong>🟢 成功路徑（若投資者願意承受短期風險）：</strong></p>
+<ul>
+<li>2026全年實現微利（RMB 1-2億）</li>
+<li>2027年利潤加速至RMB 5億+</li>
+<li>PB修復至0.8x → 目標價 HKD 2.78（+50%）</li>
+</ul>
+<p><strong>⚠️ 告誡：深度價值陷阱的經典特徵全部具備</strong>
+- 股價便宜（PB 0.6x）✓
+- 業務有知名度（首都機場）✓
+- 市場擔憂已有很長時間（6年連續虧損）✓
+- 催化劑存在但延遲（免稅協議）✓
+- <strong>但：NAV持續侵蝕 + 流動性緊張 + 結構性逆風 = 可能更便宜後才見底</strong></p>
+<hr />
+<h2>附錄：關鍵數據源</h2>
+<ul>
+<li>etnet Financial Ratios (2026-05-13): https://www.etnet.com.hk/www/eng/stocks/realtime/quote_ci_ratio.php?code=694</li>
+<li>etnet Balance Sheet (FY2025 Final): https://www.etnet.com.hk/www/eng/stocks/realtime/quote_ci_bs.php?code=694&amp;quarter=final</li>
+<li>新浪财经 2019年度业绩: https://finance.sina.com.cn/stock/relnews/hk/2020-03-27/doc-iimxxsth2116568.shtml</li>
+<li>新浪财经 FY2024业绩: https://finance.sina.com.cn/stock/hkstock/ggscyd/2025-03-27/doc-inerceua4887643.shtml</li>
+<li>腾讯新闻 FY2025业绩: https://so.html5.qq.com/page/real/search_news?docid=70000021_84969c56a5420052</li>
+<li>Futu News (首都机场2026): https://news.futunn.com/hk/post/19294417</li>
+<li>中金研报 (2025-02): https://www.sohu.com/a/857319422_114984</li>
+<li>Q1 2026业绩: https://new.qq.com/rain/a/20260423A07YP200</li>
+</ul>
+<hr />
+<p><em>報告生成：2026-05-13 | Kenneth Stock Method v1.1</em>
+<em>本報告僅供參考，不構成投資建議。</em></p>
+</div>
+</body>
+</html>
