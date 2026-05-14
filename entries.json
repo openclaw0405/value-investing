@@ -562,6 +562,268 @@
       ],
       "created_at": "2026-05-04T00:30:20.762913",
       "updated_at": "2026-05-04T00:30:20.762916"
+    },
+    {
+      "id": "ent-20260510143000",
+      "title": "AI大叙事下巴菲特 VS 孙正义：只能留一个",
+      "source_name": "金人金語",
+      "source_url": "https://www.youtube.com/watch?v=FkfkdVFrO-Q",
+      "source_type": "youtube",
+      "date": "2026-05-10",
+      "speaker": "蔡金强 Oscar Choi",
+      "core_thesis": {
+        "market": "2026年AI行情係歷史上市寬最窄嘅升市，只有4條線（存儲/CPU/電力/光纖）走得動，M7一半跌一半升",
+        "hk_platform": "港股成交聚積IPO，冇主場，恒生科指過時（騰訊/阿里/美團/百度），與AI時代脫節",
+        "a_shares": "創業板+20%≈納斯達克，中美7大科技股撐起指數40-50%，中国LLM开源+低價，商业化主要靠to C",
+        "gold": "油價上咗台階（$90-96），中東戰爭烈度降，但通胀令減息預期降溫",
+        "us_ai": "AI大廠今年$7000億CapEx已鎖定，短期唔會撤；收入$1000億；cashflow未證明但年底前都唔會爆"
+      },
+      "investment_mindset": {
+        "distinctions": [
+          "巴菲特：手持$4000億現金，耐心等待，唔追AI",
+          "孫正義：全部押注ARM+OpenAI，像樓市二按咁借錢去博",
+          "你自己：被迫參與AI行情，但唔賭命，唔炒妖股"
+        ],
+        "process": [
+          "選擇你有優勢嘅市場（美/日/台/韓/港），唔好全部一齊做",
+          "港股冇主場，短期機會喺IPO/Alpha機會",
+          "A股創業板要與時並進，恒生科指需改革"
+        ],
+        "philosophy": "短期AI资本支出和变现已锁定，唔會三五个月击穿；但長遠cashflow能否证明係關鍵；你就係被迫參與但唔好賭命"
+      },
+      "personal_insights": [
+        "巴菲特話人生只把握五六次機會，其餘可做可不做——呢個係聖人思維，我唔係巴菲特所以唔完全照搬",
+        "孫正義1999年10分鐘決定投馬雲6000萬，賺1000倍——呢種膽量唔係普通人有",
+        "香港Q1 GDP +5.3%但股市冇主場，本地資金走去炒日台韓美股",
+        "美股AI行情市寬歷史最窄——只有4條半導體/電力線走得動"
+      ],
+      "bull_cases": {
+        "ai_capex_locked_in": {
+          "thesis": "五大CSP今年$7000億CapEx已鎖定，Q3/Q4前唔會撤，AI相關股票有剛性支撐",
+          "key_stocks": "記憶體（Samsung/SK Hynix）、CPU（Intel/AMD/Marvell）、電力（Bloom Energy/GE Vernova）、光纖（Corning/Lumentum）",
+          "trigger": "今年Q3/Q4收入 confirm 到$1000-2000億呢個預期"
+        },
+        "a_shares_chinext": {
+          "thesis": "創業板代表中國真正科技股，唔係純粹政策炒作，與AI/新能源相關",
+          "key_stocks": "宁德时代、中际旭创、新易盛、胜宏科技",
+          "trigger": "中国LLM to B企業端變現確認；新能源車全球需求持續"
+        }
+      },
+      "bear_cases": {
+        "ai_cashflow_gap": {
+          "thesis": "$7000億CapEx vs $1000億收入，cashflow暫時未證明；明年如CapEx降到$9000億或收入低過預期就麻煩",
+          "specifics": [
+            "明年假設CapEx係$9000億而非$10000億，市場就會質疑",
+            "如收入只得$1500億而非$2000億，同樣麻煩",
+            "通脹導致聯儲局唔減息甚至加息，股市會逆轉"
+          ],
+          "trigger_for_reassessment": "2026年Q3/Q4財報顯示收入增速放緩；通脹數據爆上"
+        },
+        "hk_no_home_court": {
+          "thesis": "港股成交聚焦IPO，其餘股票冇資金關注，恒生科指與AI時代脫節",
+          "specifics": [
+            "恒生科指落後，未納入AI新經濟股",
+            "MiniMax/智譜納入科指會稀釋流動性",
+            "本地資金流失日台韓"
+          ],
+          "trigger_for_reassessment": "恒生科指改革成功吸納新經濟股；南向資金大幅流入"
+        }
+      },
+      "catalysts": {
+        "positive": [
+          "Q3/Q4 2026 AI大廠收入confirm到$1000-2000億預期",
+          "A股創業板新經濟股纳入恒生科指",
+          "港股IPO制度改革，納入真正AI公司",
+          "中國to B大模型變現加速"
+        ],
+        "negative": [
+          "通脹升溫，Kevin Warsh上任後聯儲局轉鷹",
+          "AI大廠CapEx低過預期（低過$9000億）",
+          "AI公司收入低過預期（低過$1500億）",
+          "油價突飆至$110+，通脹加劇",
+          "地緣政治黑天鵝（伊朗/台海）"
+        ]
+      },
+      "risks": {
+        "market": [
+          "聯儲局鷹派轉向",
+          "通脹失控",
+          "AI泡沫最終爆破"
+        ],
+        "thematic": [
+          "AI capex同cashflow唔匹配最終出事",
+          "孫正義式高槓桿單邊押注爆煲"
+        ],
+        "liquidity": [
+          "港股成交集中IPO，其餘股票缺乏流動性",
+          "恒生科指納入高估值AI公司稀釋指數"
+        ]
+      },
+      "logic_chains": [
+        {
+          "topic": "AI行情市寬歷史最窄",
+          "premise_facts": [
+            "納斯達克+12% YTD，但得存儲（Samsung/SK Hynix +100-500%）、CPU（Intel/AMD +100%+）、電力（Bloom Energy/GE Vernova）、光纖（Corning/Lumentum）走得動",
+            "M7入面MSFT -13%、META -7%、TSLA -5%",
+            "標普30+倍PE，但每股收益有十幾二十個百分點增長，PEG唔算特別難看"
+          ],
+          "reasoning_chain": "AI主題資金高度集中 → 唔係全面牛市，係結構性行情 → 只有少數幾條半導體/電力線走得郁 → 市寬歷史最窄 → 一旦某條線出事，整體指數好快散",
+          "speaker_conclusion": "你被迫參與，但唔好賭命；唔好當全面牛市嚟做",
+          "confidence": "high",
+          "expiry_condition": "明年Q1/Q2財報顯示AI收入增速放緩 or CapEx削減",
+          "action": "揀有實質收入支撐嘅AI股票（存儲/電力），避免純概念炒作"
+        },
+        {
+          "topic": "巴菲特 vs 孫正義 — 兩種投資哲學",
+          "premise_facts": [
+            "巴菲特：手持$4000億現金，覺得股市太貴，「通往教堂的賭場」，唔追AI",
+            "孫正義：全部押注ARM+OpenAI，用ARM抵押借錢，近乎100%槓桿",
+            "巴菲特：自己嘅錢，冇壓力，可以等幾年",
+            "孫正義：借錢去博，軟銀市值$1000-2000億但負債都$1000幾億"
+          ],
+          "reasoning_chain": "巴菲特資金係自己嘅 → 可以極度耐心 → 等待危機入貨 → 危機時有$4000億彈藥賺四五十個百分點；孫正義用槓桿 → 短期回報可能好高 → 但一旦AI故事逆轉就破產 → 兩種風格適合唔同人",
+          "speaker_conclusion": "聖人做法你唔好完全照搬，因為你唔係巴菲特；你自己就唔賭命",
+          "confidence": "high",
+          "expiry_condition": "軟銀或孫正義投資嘅AI公司出事",
+          "action": "學習巴菲特耐心，但唔模仿满仓；永遠酒醉三分醒，知道幾時要走"
+        }
+      ],
+      "cross_references": [],
+      "portfolio_application": {
+        "kenneth_holds": "未知（需Kenneth確認）",
+        "hk_platform_action": "避開恒生科指/platform股，港股機會喺IPO為主",
+        "gold_action": "油價上咗台階但未去到失控，宏觀經濟不確定性對黃金中性偏好",
+        "a_share_action": "創業板值得關注，主要睇宁德时代/中际旭创/新易盛",
+        "us_ai_action": "記憶體（Samsung/SK Hynix受益韓股）、電力（Bloom Energy/GE Vernova）、光纖；美股係主戰場",
+        "asymmetric_bet": "做多AI存儲/電力呢啲有實質收入嘅線，避開純概念炒作",
+        "confidence": 3,
+        "note": "蔡金強分析有數據支撐，但佢都話自己唔係巴菲特——我哋更加唔係，所以唔好完全copy"
+      },
+      "summary_short": "AI行情市寬歷史最窄： Buffett手持$4000億等危機，孫正義全部押注ARM+OpenAI；美股AI CapEx $7000億已鎖定但cashflow未證明；A股創業板+20%與納斯達克可比；港股冇主場；油價上咗台階令通脹難降溫",
+      "summary_long": "蔡金強母親節談巴菲特大戰孫正義：巴菲特手持$4000億現金認為股市係「通往教堂的賭場」，唔追AI；孫正義用ARM抵押借錢全力押注OpenAI+AI，係另一個極致。宏觀層面，美股AI今年$7000億CapEx已鎖定但收入暫時只係$1000億，cashflow gap未填補但年底前唔會爆。升市極度集中——記憶體+500%、CPU+100%+、電力+100%+、光纖——歷史上市寬最窄。A股創業板+20%，主要靠宁德时代、中际旭創等7間公司撐起40-50%指數。港股每日2-3千億成交集中在IPO，冇主場，恒生科指過時。油價升至$90-96令通脹降溫減息預期降溫，但中東戰爭烈度降暫時對油價影響有限。結論：被迫參與AI行情但唔好賭命，選擇有實質收入嘅線（存儲/電力）為主。",
+      "key_points": [
+        "美股AI行情歷史上市寬最窄——只有4條線走得動（存儲、CPU、電力、光纖）",
+        "巴菲特手持$4000億現金，覺得而家係通往教堂的賭場，耐心等危機",
+        "孫正義全部押注ARM+OpenAI，用ARM抵押借錢，高槓桿博命",
+        "AI大廠今年CapEx $7000億已鎖定，收入$1000億——cashflow gap年底前唔會爆",
+        "A股創業板+20%≈納斯達克，主要靠7間科技股",
+        "港股冇主場，成交聚焦IPO；恒生科指過時，與AI時代脫節",
+        "MiniMax/智譜如納入恒生科指會稀釋流動性，係潛在風險",
+        "油價$90-96台階令通脹難降溫，聯儲局減息預期降",
+        "你自己唔係巴菲特，唔好完全照搬聖人做法；但知道個市遲早散，要識走"
+      ],
+      "stock_recommendations": [
+        {
+          "ticker": "NVDA",
+          "name": "英偉達",
+          "direction": "long",
+          "thesis": "AI大廠CapEx锁定，GPU需求刚性；歷史上市寬最窄行情入面走得最強之一",
+          "rationale": "Q3/Q4收入confirm；軍艦佬（SK Hynix/Samsung）瘋狂買HBM；CUDA生態護城河",
+          "speaker_quote": "英偉達係AI行情入面走得最強之一",
+          "entry_timing": "回調至合理估值水平",
+          "upside_pct": "取決於AI cashflow能否證明",
+          "downside_pct": "如果AI行情逆轉，跌30-50%",
+          "thesis_status": "active",
+          "catalyst_for_reassessment": "AI大廠CapEx低過預期；AMD搶佔市場份額",
+          "notes": "孫正義早期投資英偉達但2019年賣出——如果當時唔賣已經係宇宙最強"
+        },
+        {
+          "ticker": "三星/海力士",
+          "name": "Samsung/SK Hynix",
+          "direction": "long",
+          "thesis": "HBM需求爆發，存儲器行情報復性增長，歷史級別",
+          "rationale": "SK Hynix漲了500個百分點；Samsung都係存儲受益股；AI訓練需要大量HBM",
+          "speaker_quote": "存儲器係最熱門的線，Samsung和SK Hynix走得太離譜",
+          "entry_timing": "已經高位，等回調",
+          "upside_pct": "未知道",
+          "downside_pct": "HBM產能過剩下跌30%+",
+          "thesis_status": "monitoring",
+          "catalyst_for_reassessment": "HBM產能過剩；AI投資放緩",
+          "notes": "南韓股市幾乎只有呢兩間郁，其餘都跌——幾乎係單一股票操縱"
+        }
+      ],
+      "open_questions": [
+        "Kenneth係咪持有美股AI相關倉位（NVDA/記憶體/電力股）？",
+        "Kenneth對港股IPO有冇興趣參與？",
+        "A股創業板（宁德时代/中际旭创）係Kenneth能力圈範圍內嗎？"
+      ],
+      "notes": "字幕準確，粵語口語，母親節氣氛輕鬆；蔡金強有利益申報（持有相關股票）；視頻涵蓋宏觀+AI+港股+A股，內容豐富",
+      "companies": [
+        "蘋果",
+        "美國運通",
+        "美國銀行",
+        "雪佛龍",
+        "可口可樂",
+        "阿里巴巴",
+        "騰訊",
+        "美團",
+        "百度",
+        "寧德時代",
+        "中際旭創",
+        "新易盛",
+        "勝宏科技",
+        "軟銀",
+        "ARM",
+        "OpenAI",
+        "英偉達",
+        "英特爾",
+        "AMD",
+        "Marvell",
+        "高通",
+        "Bloom Energy",
+        "GE Vernova",
+        "Lumentum",
+        "Corning",
+        "Ciena",
+        "三星",
+        "SK海力士",
+        "台積電",
+        "聯發科",
+        "MiniMax",
+        "智譜",
+        "Anthropic",
+        "Meta",
+        "特斯拉",
+        "亞馬遜",
+        "谷歌"
+      ],
+      "sectors": [
+        "科技",
+        "宏觀經濟",
+        "私募信貸",
+        "半導體/記憶體",
+        "股票/港股",
+        "股票/A股"
+      ],
+      "themes": [
+        "AI",
+        "港股",
+        "A股",
+        "投資策略",
+        "地緣政治",
+        "新能源車",
+        "倉位管理",
+        "投資心理",
+        "宏觀經濟"
+      ],
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AMD",
+        "AVGO",
+        "QCOM",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "AAPL",
+        "TSLA",
+        "BRK.B",
+        "SFTBY",
+        "ARM",
+        "MSFT"
+      ],
+      "created_at": "2026-05-14T16:54:40.558760",
+      "updated_at": "2026-05-14T16:54:40.558770"
     }
   ],
   "companies": [
