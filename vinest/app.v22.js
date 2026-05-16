@@ -1,6 +1,53 @@
 // VINEST YouTube Knowledge Base - Shared Logic
 const DATA_PATH = './entries.json?v=12';
+const THEME_KEY = 'vinest-theme';
 let db = null;
+
+function applyTheme(theme) {
+  const resolved = theme === 'light' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', resolved);
+  document.body?.setAttribute('data-theme', resolved);
+  const toggle = document.getElementById('themeToggle');
+  if (toggle) {
+    toggle.dataset.theme = resolved;
+    toggle.innerHTML = resolved === 'light' ? '<span>🌞</span><span>Light</span>' : '<span>🌙</span><span>Dark</span>';
+    toggle.setAttribute('aria-label', `Switch to ${resolved === 'light' ? 'dark' : 'light'} mode`);
+  }
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  const preferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  applyTheme(saved || preferred);
+}
+
+function toggleTheme() {
+  const next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+  localStorage.setItem(THEME_KEY, next);
+  applyTheme(next);
+}
+
+function mountThemeToggle() {
+  const nav = document.querySelector('.site-nav');
+  if (!nav || document.getElementById('themeToggle')) return;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.id = 'themeToggle';
+  button.className = 'theme-toggle';
+  button.addEventListener('click', toggleTheme);
+  nav.appendChild(button);
+  applyTheme(document.documentElement.getAttribute('data-theme') || 'dark');
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
+    mountThemeToggle();
+  });
+} else {
+  initTheme();
+  mountThemeToggle();
+}
 
 // Load data
 async function loadData() {
@@ -190,5 +237,6 @@ function entityCardHTML(name, count, link) {
 window.VINEST = {
   loadData, getParams, formatDate, esc, renderTags,
   searchEntries, filterEntries, sortEntries, getRelatedEntries,
-  getEntityCounts, getTopEntities, entryCardHTML, entityCardHTML
+  getEntityCounts, getTopEntities, entryCardHTML, entityCardHTML,
+  initTheme, toggleTheme, mountThemeToggle, applyTheme
 };
