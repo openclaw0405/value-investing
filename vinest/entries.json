@@ -8,190 +8,139 @@
       "source_type": "youtube",
       "date": "2026-05-11",
       "speaker": "黃國英",
-      "summary_short": "講者同時關注 AI / 半導體主線能否由盈利繼續支撐高估值。對港股平台股則偏向要求分清業務質素、政策方向與估值位置。 Continue to have Alex Kingdom through the feed, Alex Feed, t…",
-      "summary_long": "講者同時關注 AI / 半導體主線能否由盈利繼續支撐高估值。對港股平台股則偏向要求分清業務質素、政策方向與估值位置。 Continue to have Alex Kingdom through the feed, Alex Feed, this week these many…；I think it is very difficult, because I do not know your question, which means…；I think that is do not know how to make sense must be good that is to a lot of…",
+      "summary_short": "黃國英認為港股要真正出現大轉勢，單靠阿里、騰訊業績未必夠，反而要見到更大、更難出現的結構性改變；短線上他較傾向承認 AI 主線仍強，但對高位追入保持戒心。",
+      "summary_long": "這集主要講港股與外圍市場的落差、阿里騰訊業績前景、AI 牛市估值風險，以及黃國英自己較偏防守的配置思路。黃國英認為，外圍尤其美股和台股不斷創高，但港股仍被大型平台股拖住，市場心理亦長期停留在熊市反彈思維，所以即使估值不算貴，也未足以自然出現大牛市。他對阿里、騰訊業績是否足以帶來真正轉機看法審慎，認為若沒有驚天動地的變化，港股較難扭轉『升少少就走』的習慣。相對地，他覺得部分香港地產、內房、內銀、工業股的環境已比早前改善，可作為組合底倉；AI 相關則仍可留意，但必須防高估值與過熱情緒。",
       "key_points": [
-        "AI / 半導體主線雖然仍強，但市場已開始重新檢視高估值能否由盈利持續支持。",
-        "平台股唔可以籠統當成高科技，要拆返業務、政策與估值分開看。"
+        "外圍市場屢創新高，但港股仍受大型平台股拖累，整體氣氛未算真正轉強。",
+        "黃國英對阿里、騰訊業績能否帶來『大轉機』看法審慎，認為單靠業績未必足以扭轉長期熊市心態。",
+        "他認為港股投資者普遍仍抱住『升少少就走』的思維，這種心態本身就是市場難大升的重要阻力。",
+        "部分香港地產、內房、內銀及工業股在經歷大低潮後，基本面和股價行為已有改善跡象，可作防守或底倉。",
+        "AI 主線未必即時完，但高位追入風險高，若缺乏更強盈利和資金支持，容易變成高位接貨。"
       ],
-      "stock_recommendations": [],
+      "stock_recommendations": [
+        {
+          "ticker": "0700.HK",
+          "label": "0700.HK",
+          "name": "騰訊",
+          "direction": "neutral",
+          "thesis": "騰訊在片中主要被視為影響港股指數表現的核心平台股之一，但講者沒有把它描述成明確必買機會。",
+          "speaker_rationale": "講者提到若騰訊、阿里不動，港股指數就很難有像樣升勢；但他同時質疑單靠業績是否足以改變整個市場的熊市思維，所以語氣偏觀察而非進攻。",
+          "recommendation_role": "current_actionable_preference",
+          "operation_points": [
+            "重點先看業績後市場怎樣解讀，而不只是看業績數字本身。",
+            "如果市場心態仍然是反彈即走，平台股未必能帶動大級別升浪。"
+          ],
+          "risk_points": [
+            "平台股即使估值不貴，也可能因市場風格和信心不足而跑不出。",
+            "若 AI 故事明顯落後美股同業，資金未必願意重新給高倍數。"
+          ],
+          "entry_timing": "等業績後市場確認資金是否願意重新定價。",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "若業績後平台股能持續帶動指數與成交改善，才值得上調判斷。",
+          "note": "屬觀察重點，不是無條件看好。"
+        },
+        {
+          "ticker": "BABA",
+          "label": "BABA",
+          "name": "阿里巴巴",
+          "direction": "neutral",
+          "thesis": "阿里與騰訊一樣，被視為港股能否改善氣氛的重要風向標，但講者對其能否單獨帶來大轉勢並不樂觀。",
+          "speaker_rationale": "片中提到市場緊盯阿里、騰訊業績，但黃國英認為外圍 AI 巨頭的增長速度遠高於它們，因此要靠這些平台股講出足夠強的新故事並不容易。",
+          "recommendation_role": "current_actionable_preference",
+          "operation_points": [
+            "先看業績後有沒有真正改善市場預期。",
+            "不要把『估值平』直接等同『一定會升』。"
+          ],
+          "risk_points": [
+            "市場可能只把它當反彈倉，而非長線重新評價。",
+            "若缺少新敘事，容易繼續落後外圍科技龍頭。"
+          ],
+          "entry_timing": "等業績與管理層說法提供更強催化。",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "若新業務或資本回報政策明顯改善，才值得重新看高一線。",
+          "note": "作用偏向判斷港股氣氛，不是片中最強 conviction idea。"
+        },
+        {
+          "ticker": "0005.HK",
+          "label": "0005.HK",
+          "name": "匯豐控股",
+          "direction": "long",
+          "thesis": "匯豐代表講者偏防守、收息和金融底倉思路，是組合中較穩陣的一部分。",
+          "speaker_rationale": "講者提到自己持有匯豐，並把金融、香港銀行、內銀等視為可墊住組合波動的板塊；雖然他也提到某些改革紅利未必完全有利金融股，但整體仍屬防守配置。",
+          "recommendation_role": "portfolio_application",
+          "operation_points": [
+            "較適合作為分散風險和收息底倉。",
+            "不要用它去追求 AI 式爆發，而是看穩定性。"
+          ],
+          "risk_points": [
+            "若市場轉向極端追增長，金融股可能相對跑輸。",
+            "政策和利率預期變動仍會影響估值。"
+          ],
+          "entry_timing": "較適合逢回部署，作組合平衡用途。",
+          "thesis_status": "active",
+          "reassessment_condition": "若利率環境或監管因素令金融股盈利前景轉弱，需要重估。",
+          "note": "這是防守底倉邏輯，不是高爆發主線。"
+        }
+      ],
       "core_thesis": {
-        "AI與半導體": "AI 與半導體主線仍具吸引力，但估值與盈利可持續性開始成為市場再定價焦點。",
-        "港股平台股": "港股平台股更需要分清業務質素、政策方向與估值位置，不能只用『科技』籠統看待。"
+        "港股轉勢未到": "港股要由熊市心態真正轉向牛市，單靠估值便宜或個別業績未必足夠，需要更大、更具說服力的結構改變。",
+        "平台股只是風向標": "阿里、騰訊業績很重要，但更重要的是它們能否改變市場對港股長期缺乏信心的心理。",
+        "AI 主線仍強但太熱": "AI 牛市未必即刻完，但高位追入的風險越來越高，投資者要分清基本面與情緒。",
+        "防守底倉有價值": "香港地產、內房、內銀、工業與部分金融股可作組合緩衝，讓整體波動不至過大。"
       },
-      "macro_regime": {},
       "investment_mindset": {
-        "philosophy": "先分清故事、估值、資金流同風險，再決定倉位；方法同市況唔匹配時，觀望都係操作。",
+        "philosophy": "不要因為覺得便宜就太早搏轉勢；等真正罕見、能改變市場心態的信號出現，遲少少買都未必是壞事。",
         "distinctions": [
-          "分清 platform 股、真正技術受惠股、以及純情緒題材股。",
-          "分清盈利驅動同估值擴張驅動。"
+          "分清外圍新高與港股自身基本面改善是兩回事。",
+          "分清平台股估值平，與平台股足以帶動新牛市，這兩者並不相同。",
+          "分清 AI 主線仍強，與高位再追是否值搏，這兩者也不相同。"
         ],
-        "process": []
+        "process": [
+          "先看市場心理有沒有改變，再判斷轉勢是否可信。",
+          "用底倉減波動，再決定是否分配部分資金到高增長主題。"
+        ]
       },
-      "personal_insights": [
-        "講者對 AI 主線並非純看淡，而是更在意高估值之下盈利能否跟上。",
-        "對平台股的看法偏實務：先看業務質素與政策位置，唔係先聽故事。"
-      ],
       "insights": [
-        "講者對 AI 主線並非純看淡，而是更在意高估值之下盈利能否跟上。",
-        "對平台股的看法偏實務：先看業務質素與政策位置，唔係先聽故事。"
-      ],
-      "bull_cases": {
-        "AI與半導體": {
-          "thesis": "若 AI 資本開支、雲端需求與晶片盈利延續，高景氣主線仍可支持強勢股。",
-          "key_stocks": "指數 / 龍頭資產",
-          "trigger": "大型科技業績 / capex 指引 / 半導體景氣"
-        },
-        "港股平台股": {
-          "thesis": "若平台股盈利與現金流穩住，低預期環境下仍有修復空間。",
-          "key_stocks": "指數 / 龍頭資產",
-          "trigger": "業績 / 政策語氣 / 回購與資本配置"
-        }
-      },
-      "bear_cases": {
-        "AI與半導體": {
-          "thesis": "一旦市場懷疑 AI / memory 盈利持續性，高估值股份會先受壓。",
-          "specifics": [
-            "Continue to have Alex Kingdom through the feed, Alex Feed, this week these many things happened so yeah, of course, there are some large case stocks job so ah then, and there is that rally it so, so with you root, that is the trace of large dream stocks, because everyone is very, that is very good to see the Hong Kong stock market like this, actually very anxious, because you outside, whether you are today scared better than Ah also in those entering Taiwan have broken the top one after another, so it is the ten-year high, but we are hardly not very cold , maybe our index is a lot of, such as some large stocks, this is dragging, for example, Tencent, you can do it, you are really difficult to do the whole index, so ah so three of them will be announced soon D that is the line to guess this, in fact, the domestic industry in the first quarter of the net profit year is to D 28% of so, An this eh last year in the fourth quarter of this actually D 35% people are receiving, but have not gone to this, there is a good growth. In fact, it thorny d what position there, that is, for the upcoming, that is Alibaba and Tencent on that performance?",
-            "I think it is very difficult, because I do not know your question, which means you are talking about those outside that is the speed of the head burning , which is far higher than them. So and then I ended up at the end of that so-called accessible market also that is yeah well, obviously it should be that is not very special. So yeah, and Everland has one there. So how do you go about your AI story?",
-            "I think that is do not know how to make sense must be good that is to a lot of money of the armament, so and that is also there is a problem, is that you always investors are formed a high to leave the idea, ổ Stock how to win the big man, it becomes you really even a cheap, all those people holding those may be, that is, thinking, that is, speculate a few percent of the rebound, then quickly go away, so how do you do it I think so become everyone used to right you in a bear market, that is, you, you practice a really strong bear market That is the street thing right so, so actually I think you do not have to be so early yeah, we lazy to strong so go to stock it, that will have something to make to turn. And when he really switched the look will be very different from now is that is, I must be a bit afraid of heaven and earth to get, because his occupational drug time is too long, and really make some people's mentality above that , that is, the fired mentality above that thought is different , that is, you outside those are afraid of being alone after not buying back, Hong Kong [laughing voice] can buy you Head, so you really how to get bad is really good, really you do not twist you find something twist this thing, how to twist this thing, is actually very bad, so I think you wait until there is something really difficult to appear when the appearance is not too late. Feed, difficult to appear of the turn of will be the room?"
-          ],
-          "trigger_for_reassessment": "當盈利增速或需求證據轉弱時"
-        },
-        "港股平台股": {
-          "thesis": "若政策、競爭或市場偏好繼續不利 platform 股，相關股份可能長時間跑輸。",
-          "specifics": [
-            "Continue to have Alex Kingdom through the feed, Alex Feed, this week these many things happened so yeah, of course, there are some large case stocks job so ah then, and there is that rally it so, so with you root, that is the trace of large dream stocks, because everyone is very, that is very good to see the Hong Kong stock market like this, actually very anxious, because you outside, whether you are today scared better than Ah also in those entering Taiwan have broken the top one after another, so it is the ten-year high, but we are hardly not very cold , maybe our index is a lot of, such as some large stocks, this is dragging, for example, Tencent, you can do it, you are really difficult to do the whole index, so ah so three of them will be announced soon D that is the line to guess this, in fact, the domestic industry in the first quarter of the net profit year is to D 28% of so, An this eh last year in the fourth quarter of this actually D 35% people are receiving, but have not gone to this, there is a good growth. In fact, it thorny d what position there, that is, for the upcoming, that is Alibaba and Tencent on that performance?",
-            "In fact, before once was higher than that, ah like you say Alex, that is a sound, we feel to leave the frame like that, so this you go a higher than the average this scroll back down, and now go to flip an average value, will not actually, that MSC in China before has been on the average, in fact, we simply ignore your stock market, you do not care, this, Well then, will not build now because at least we will not have this thought, at least you that is the average, if we have something, like just you said within what ah, or something else special good factors maybe we will re -guess up the next a stock. This is that this is probably you need this. That is some Internet devices to appear some earth-shattering changes first so but now fortunately it is your internal bank and internal. Actually it got better and then some industries actually got better that is not only better industrial direct market. So d industrial bull market but that is bad places they are not very enough light, that is that the quilt that can that may not be big , so and so, but you at least you that some traditional inside the room is actually better so I think you will have a helper to top the bottom will not be too bad, but you have to go on that means you have to be very afraid of the earth Look at those platform stocks, in fact, when will turn small so, but you that become I think your Hong Kong play, or China's play is that you chase open that choose that the initial version even so, or you traditional, choose your own part to buy to build portfolio d Alex your group, that is the fund portfolio is , that is distributed d what sectors can be a reference, and this year you actually the fund probably performance is how much bet this so basically have an upper digit, it is not very special, to tell the truth, you are now the street stock god to tell the truth, so it depends on how many public years of stocks you have, so of course we have more public stocks. So yeah, in addition to that, I think you in terms of out a stock selection, actually some that the focus is outside it may be supply-based yeah plus a little maybe now start to feel that the start to fight is such a recovery software. So that will be added recently on some, that has a chance to get better of the software especially that is cyb security that it, that is that there is no security that it so and then follow this you in I Hong Kong this side this has part of that industry, especially maybe you are in A shares and have industry. So then, these traditions in Hong Kong real estate, domestic real estate Hong Kong banks , and domestic banks, so these means that maybe you as , that is, cushion the bottom, that makes the market feel, that is, make that combination the wave cover is not so big, that is, these are good, so the only thing I think is a little left may be HSBC's, so we are more. It's because I think the financial stocks, actually have a little chance to change ന് of I think , because I think DonaldTrump actually now looks quite of so you may that reform dividend that may have the opportunity to open some point-by-point losses so it becomes you may for those financial stocks may be worse I think there are some chances that may be underperforming that will be worse . Um, good Alex can simply say, in fact, your combination is really very diverse, some are very ahead of this , but also some are relatively poor drag girls so overall maybe that if to the market your performance will be like?"
-          ],
-          "trigger_for_reassessment": "當政策方向明顯轉暖或業務結構出現改善時"
-        }
-      },
-      "bull_points": [
-        "若 AI 資本開支、雲端需求與晶片盈利延續，高景氣主線仍可支持強勢股。",
-        "若平台股盈利與現金流穩住，低預期環境下仍有修復空間。"
-      ],
-      "bear_points": [
-        "一旦市場懷疑 AI / memory 盈利持續性，高估值股份會先受壓。",
-        "若政策、競爭或市場偏好繼續不利 platform 股，相關股份可能長時間跑輸。"
-      ],
-      "catalysts": {
-        "positive": [
-          "AI / 半導體龍頭業績與資本開支指引若再超預期，可延續主線強勢。",
-          "平台股若有回購、盈利改善或政策語氣轉暖，估值可修復。"
-        ],
-        "negative": [
-          "若市場質疑 AI / memory 盈利可持續性，高估值股份會先受壓。",
-          "平台監管、競爭加劇或市場偏好持續外移，平台股會繼續跑輸。"
-        ]
-      },
-      "risks": {
-        "thematic_risks": [
-          "AI / 半導體若被證明只係估值擴張快過盈利，回吐會較大。",
-          "平台股受政策、競爭與風格壓力影響，估值修復未必線性。"
-        ],
-        "liquidity_risks": [
-          "資金一旦轉向保守，高熱度板塊會先面對流動性折價。"
-        ]
-      },
-      "logic_chains": [
-        {
-          "topic": "AI與半導體",
-          "premise_facts": [
-            "Continue to have Alex Kingdom through the feed, Alex Feed, this week these many things happened so yeah, of course, there are some large case stocks job so ah then, and there is that rally it so, so with you root, that is the trace of large dream stocks, because everyone is very, that is very good to see the Hong Kong stock market like this, actually very anxious, because you outside, whether you are today scared better than Ah also in those entering Taiwan have broken the top one after another, so it is the ten-year high, but we are hardly not very cold , maybe our index is a lot of, such as some large stocks, this is dragging, for example, Tencent, you can do it, you are really difficult to do the whole index, so ah so three of them will be announced soon D that is the line to guess this, in fact, the domestic industry in the first quarter of the net profit year is to D 28% of so, An this eh last year in the fourth quarter of this actually D 35% people are receiving, but have not gone to this, there is a good growth. In fact, it thorny d what position there, that is, for the upcoming, that is Alibaba and Tencent on that performance?",
-            "I think it is very difficult, because I do not know your question, which means you are talking about those outside that is the speed of the head burning , which is far higher than them. So and then I ended up at the end of that so-called accessible market also that is yeah well, obviously it should be that is not very special. So yeah, and Everland has one there. So how do you go about your AI story?",
-            "I think that is do not know how to make sense must be good that is to a lot of money of the armament, so and that is also there is a problem, is that you always investors are formed a high to leave the idea, ổ Stock how to win the big man, it becomes you really even a cheap, all those people holding those may be, that is, thinking, that is, speculate a few percent of the rebound, then quickly go away, so how do you do it I think so become everyone used to right you in a bear market, that is, you, you practice a really strong bear market That is the street thing right so, so actually I think you do not have to be so early yeah, we lazy to strong so go to stock it, that will have something to make to turn. And when he really switched the look will be very different from now is that is, I must be a bit afraid of heaven and earth to get, because his occupational drug time is too long, and really make some people's mentality above that , that is, the fired mentality above that thought is different , that is, you outside those are afraid of being alone after not buying back, Hong Kong [laughing voice] can buy you Head, so you really how to get bad is really good, really you do not twist you find something twist this thing, how to twist this thing, is actually very bad, so I think you wait until there is something really difficult to appear when the appearance is not too late. Feed, difficult to appear of the turn of will be the room?"
-          ],
-          "reasoning_chain": "Continue to have Alex Kingdom through the feed, Alex Feed, this week these many things happened so yeah, of course, there are some large case stocks job so ah then, and there is that rally it so, so with you root, that is the trace of large dream stocks, beca…",
-          "speaker_conclusion": "AI 與半導體主線仍具吸引力，但估值與盈利可持續性開始成為市場再定價焦點。",
-          "confidence": "high",
-          "expiry_condition": "當盈利增速或需求證據轉弱時",
-          "action": "優先區分『真基本面受惠』與『只係題材情緒』。"
-        },
-        {
-          "topic": "港股平台股",
-          "premise_facts": [
-            "Continue to have Alex Kingdom through the feed, Alex Feed, this week these many things happened so yeah, of course, there are some large case stocks job so ah then, and there is that rally it so, so with you root, that is the trace of large dream stocks, because everyone is very, that is very good to see the Hong Kong stock market like this, actually very anxious, because you outside, whether you are today scared better than Ah also in those entering Taiwan have broken the top one after another, so it is the ten-year high, but we are hardly not very cold , maybe our index is a lot of, such as some large stocks, this is dragging, for example, Tencent, you can do it, you are really difficult to do the whole index, so ah so three of them will be announced soon D that is the line to guess this, in fact, the domestic industry in the first quarter of the net profit year is to D 28% of so, An this eh last year in the fourth quarter of this actually D 35% people are receiving, but have not gone to this, there is a good growth. In fact, it thorny d what position there, that is, for the upcoming, that is Alibaba and Tencent on that performance?",
-            "In fact, before once was higher than that, ah like you say Alex, that is a sound, we feel to leave the frame like that, so this you go a higher than the average this scroll back down, and now go to flip an average value, will not actually, that MSC in China before has been on the average, in fact, we simply ignore your stock market, you do not care, this, Well then, will not build now because at least we will not have this thought, at least you that is the average, if we have something, like just you said within what ah, or something else special good factors maybe we will re -guess up the next a stock. This is that this is probably you need this. That is some Internet devices to appear some earth-shattering changes first so but now fortunately it is your internal bank and internal. Actually it got better and then some industries actually got better that is not only better industrial direct market. So d industrial bull market but that is bad places they are not very enough light, that is that the quilt that can that may not be big , so and so, but you at least you that some traditional inside the room is actually better so I think you will have a helper to top the bottom will not be too bad, but you have to go on that means you have to be very afraid of the earth Look at those platform stocks, in fact, when will turn small so, but you that become I think your Hong Kong play, or China's play is that you chase open that choose that the initial version even so, or you traditional, choose your own part to buy to build portfolio d Alex your group, that is the fund portfolio is , that is distributed d what sectors can be a reference, and this year you actually the fund probably performance is how much bet this so basically have an upper digit, it is not very special, to tell the truth, you are now the street stock god to tell the truth, so it depends on how many public years of stocks you have, so of course we have more public stocks. So yeah, in addition to that, I think you in terms of out a stock selection, actually some that the focus is outside it may be supply-based yeah plus a little maybe now start to feel that the start to fight is such a recovery software. So that will be added recently on some, that has a chance to get better of the software especially that is cyb security that it, that is that there is no security that it so and then follow this you in I Hong Kong this side this has part of that industry, especially maybe you are in A shares and have industry. So then, these traditions in Hong Kong real estate, domestic real estate Hong Kong banks , and domestic banks, so these means that maybe you as , that is, cushion the bottom, that makes the market feel, that is, make that combination the wave cover is not so big, that is, these are good, so the only thing I think is a little left may be HSBC's, so we are more. It's because I think the financial stocks, actually have a little chance to change ന് of I think , because I think DonaldTrump actually now looks quite of so you may that reform dividend that may have the opportunity to open some point-by-point losses so it becomes you may for those financial stocks may be worse I think there are some chances that may be underperforming that will be worse . Um, good Alex can simply say, in fact, your combination is really very diverse, some are very ahead of this , but also some are relatively poor drag girls so overall maybe that if to the market your performance will be like?"
-          ],
-          "reasoning_chain": "Continue to have Alex Kingdom through the feed, Alex Feed, this week these many things happened so yeah, of course, there are some large case stocks job so ah then, and there is that rally it so, so with you root, that is the trace of large dream stocks, beca…",
-          "speaker_conclusion": "港股平台股更需要分清業務質素、政策方向與估值位置，不能只用『科技』籠統看待。",
-          "confidence": "high",
-          "expiry_condition": "當政策方向明顯轉暖或業務結構出現改善時",
-          "action": "只做自己熟悉的業務與公司，避免把所有平台股當成同一類 trade。"
-        }
-      ],
-      "cross_references": [
-        {
-          "topic": "AI 高景氣 vs 平台股低預期",
-          "source_a": {
-            "name": "AI / 半導體",
-            "view": "盈利與資本開支仍可支撐強勢，但估值壓力上升。",
-            "premise": "市場願意為高增長主線付較高估值。"
-          },
-          "source_b": {
-            "name": "港股平台股",
-            "view": "估值未必貴，但受政策與風格壓力拖累。",
-            "premise": "即使現金流穩定，市場都未必立即給高倍數。"
-          },
-          "who_wins_when": "風險偏好高時 AI 較強；若市場轉向低預期修復，平台股更有機會追落後。",
-          "key_insight": "兩邊唔係同一種 trade，不能用同一估值框架處理。"
-        }
+        "這條片最核心不是選股，而是講『港股心態仍然未轉』。",
+        "黃國英的重點其實很實際：如果全市場都習慣反彈即走，估值便宜本身未必會自動變成升勢。",
+        "他對組合管理明顯偏重平衡與防守，不會純粹因為 AI 熱就把整副身家押進去。"
       ],
       "portfolio_application": {
-        "hk_platform_action": "只揀自己理解的業務，唔好把所有平台股當同一個板塊盲撈。",
-        "us_ai_action": "保留主線觀察，但要更著重盈利驗證與入場節奏。",
-        "asymmetric_bet": "用小倉位 / 對沖去換取不對稱回報，避免一口氣押方向。",
-        "confidence": "3",
-        "note": "如果方法同市況唔匹配，觀望本身都係資產配置。"
+        "macro_takeaway": "如果你看港股，這條片較值得用來理解市場心理與配置思路，而不是找一隻即買即升的股票。",
+        "practical_action": "平台股可以觀察，但較穩陣的做法是配合地產、銀行、工業等底倉，避免單押一條 AI / 科技線。",
+        "note": "當市場仍在熊市思維，過早重倉搏大轉勢的勝率未必高。"
       },
-      "open_questions": {
-        "data_to_verify": [
-          "AI / memory 龍頭未來兩季盈利與 capex 指引是否延續。"
-        ],
-        "next_trigger": [
-          "大型科技業績與雲端資本開支更新。"
-        ],
-        "stress_test": [
-          "若盈利未跟上但估值仍擴張，說明市場仍以流動性驅動為主。"
-        ]
-      },
-      "notes": "來源頻道：Now 財經 新聞；原標題：【FINTERVIEW】黃國英:AI股牛市太癲要睇路(下)；自動由字幕生成 v2 初稿，重要影片建議再人工覆核。",
+      "notes": "已人工修正。原始自動匯入誤用英文字幕 track，現改用 yue-orig 廣東話字幕重整。",
       "transcript_quality": {
-        "ascii_ratio": 0.9995773457311918,
-        "cjk_ratio": 0.0,
-        "alpha_ratio": 0.7767328825021133,
-        "short_sentence_ratio": 0.07692307692307693,
-        "weird_token_density": 17.307692307692307,
-        "stock_recommendations_suppressed": true,
-        "stock_recommendations_note": "Transcript quality too noisy for reliable stock recommendation extraction; auto stock picks suppressed.",
-        "llm_stock_extraction": {
-          "status": "skipped",
-          "reason": "missing_openai_api_key"
-        }
+        "source_used": "yue-orig.vtt",
+        "transcript_language": "Cantonese",
+        "original_auto_import_issue": "wrong English subtitle track produced mixed English garbage",
+        "manual_reviewed": true
       },
       "companies": [
         "阿里巴巴",
-        "騰訊"
+        "騰訊",
+        "匯豐控股"
       ],
       "sectors": [
+        "股票/港股",
         "科技",
-        "半導體"
+        "金融",
+        "地產"
       ],
       "themes": [
-        "AI"
+        "AI",
+        "港股",
+        "市場心理",
+        "資產配置"
       ],
       "tickers": [
         "BABA",
-        "0700.HK"
-      ],
-      "legacy_risks": [
-        "AI / 半導體若被證明只係估值擴張快過盈利，回吐會較大。",
-        "平台股受政策、競爭與風格壓力影響，估值修復未必線性。",
-        "資金一旦轉向保守，高熱度板塊會先面對流動性折價。"
+        "0700.HK",
+        "0005.HK"
       ],
       "created_at": "2026-05-18T12:18:46+01:00",
-      "updated_at": "2026-05-18T12:18:46+01:00"
+      "updated_at": "2026-05-18T12:25:00+01:00"
     },
     {
       "id": "ent-20260518-115836-7QchTGZ4uww",
