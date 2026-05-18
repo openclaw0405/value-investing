@@ -1,6 +1,252 @@
 {
   "entries": [
     {
+      "id": "ent-20260518-115836-7QchTGZ4uww",
+      "title": "習主席說：中美必須避免“修昔底德陷阱”｜全明星 CEO 朝聖天壇，實質成果如何？｜中國 青年失業率的隱憂｜特朗普欺善怕的身體語言｜譚新強世界ZOOM︱Sun Channel︱20260516",
+      "source_name": "Sun Channel",
+      "source_url": "https://www.youtube.com/watch?v=7QchTGZ4uww",
+      "source_type": "youtube",
+      "date": "2026-05-16",
+      "speaker": "譚新強",
+      "summary_short": "影片主要評估習特會的真正成果：政治姿態高規格，但實際經貿成果少過市場預期；講者同時把焦點放在修昔底德陷阱、台灣紅線、半導體限制與中國內部青年失業等結構問題。",
+      "summary_long": "影片核心不是短線炒股，而是拆解這次習特會的象徵意義與實質成果落差。譚新強認為，中方在禮遇、外交姿態與論述主導上明顯佔上風，尤其習近平再次公開提到『修昔底德陷阱』，並把台灣明確列為紅線，顯示中美結構性競爭仍未改變。另一方面，市場原本期待大額貿易與投資協議，但實際可見成果比外界傳聞的一萬億美元差很遠，連波音、牛肉等所謂『三個 B』都更像有限度示好，而非真正扭轉格局。片中亦談到 NVIDIA H200 對華銷售、YMTC 對 Micron / Samsung 的記憶體壓力，以及中國青年失業、資產回報落後美國等更深層問題。整體結論是：中美可以暫時降溫，但結構矛盾未解，市場不宜把表面和氣直接當成全面利好。",
+      "key_points": [
+        "習近平再次高調提到『修昔底德陷阱』，代表中美權力轉移風險仍是這次會面的底層主題，不是單純做生意咁簡單。",
+        "講者認為今次訪華表面規格很高，但實際經貿成果低於市場原先樂觀預期，所謂一萬億美元級別更像過度吹大。",
+        "波音、牛肉等交易屬有限度示好，較似氣氛管理，未足以代表中美經濟關係已經根本改善。",
+        "NVIDIA H200 對華銷售就算形式上獲批，中國企業是否真心願買、官方是否鼓勵，仍然存在很大不確定性。",
+        "YMTC、內地設備鏈與記憶體追趕，反映中國半導體自主化壓力會繼續存在，亦會壓住美國記憶體公司的敘事。",
+        "中國 nation-level 指標未必差，但青年失業、房地產、股市回報與居民資產增長落後，顯示內部經濟失衡仍然嚴重。"
+      ],
+      "stock_recommendations": [
+        {
+          "ticker": "BA",
+          "label": "BA",
+          "name": "Boeing",
+          "direction": "neutral",
+          "thesis": "波音在片中主要是這次中美會面的有限成果例子，不是講者的高 conviction 投資推介。",
+          "speaker_rationale": "講者認為波音訂單可以理解為姿態性交易，中國客機需求仍然存在，但數量與金額都不足以支持市場過度樂觀反應，而且中國自身也在推進 C919 / C929，長遠不會單靠進口飛機。",
+          "speaker_quote": null,
+          "recommendation_role": "theme_exposure_example",
+          "operation_points": [
+            "這個提及重點是政策與貿易氣氛，不是即時追入訊號。",
+            "如果要看 BA，應該跟蹤真正落地訂單與交付，而不是只看會後 headline。"
+          ],
+          "risk_points": [
+            "政治姿態未必等於持續訂單。",
+            "中國航空自主化長遠會削弱進口機故事。"
+          ],
+          "entry_timing": "先觀望後續正式訂單與交付數據。",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "若後續公布更大規模、可驗證的飛機訂單，才值得重估。",
+          "note": "屬會談成果示例，不應寫成強烈買入呼籲。"
+        },
+        {
+          "ticker": "NVDA",
+          "label": "NVDA",
+          "name": "NVIDIA",
+          "direction": "neutral",
+          "thesis": "NVIDIA 在片中代表中美科技限制下的尷尬位置：想重返中國市場，但真正需求與政策口徑未必配合。",
+          "speaker_rationale": "講者提到 H200 供中國企業的說法已經不是第一次，但中國官方未明確鼓勵民企購買；即使存在水貨與灰色渠道，也不代表可以把中國收入恢復當成確定利好。",
+          "speaker_quote": null,
+          "recommendation_role": "current_actionable_preference",
+          "operation_points": [
+            "不要只因『重新賣中國』headline 就高追。",
+            "要等中國企業實際採購與監管口徑更清楚。"
+          ],
+          "risk_points": [
+            "政策放寬未必等於需求落地。",
+            "若中國轉向本土替代，對 NVDA 中國敘事仍有限制。"
+          ],
+          "entry_timing": "等實際採購與政策細節明朗後再判斷。",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "若中國大型雲廠商確認採購節奏，或限制再收緊，論點都要重估。",
+          "note": "屬當前可觀察標的，但影片語氣偏審慎，不是無條件看好。"
+        },
+        {
+          "ticker": "MU",
+          "label": "MU",
+          "name": "Micron Technology",
+          "direction": "neutral",
+          "thesis": "Micron 在片中更多是記憶體競爭壓力的被比較對象，而非講者主動推薦。",
+          "speaker_rationale": "講者提到 YMTC 與中國本土供應鏈持續追趕，市場亦會把這種壓力投射到 Micron / Samsung 等記憶體公司身上，因此更像風險提醒。",
+          "speaker_quote": null,
+          "recommendation_role": "relative_comparison",
+          "operation_points": [
+            "重點是觀察中國記憶體追趕速度，不是單看 MU 短線波動。",
+            "如果只是題材受壓，要分清是情緒回調還是基本面轉弱。"
+          ],
+          "risk_points": [
+            "中國供應鏈追趕會壓住估值敘事。",
+            "記憶體周期本身波動大，消息容易放大股價反應。"
+          ],
+          "entry_timing": "等下一輪產業數據與價格週期更清楚。",
+          "thesis_status": "monitoring",
+          "reassessment_condition": "若中國替代速度不及預期，或記憶體景氣再加速，需重新判斷。",
+          "note": "這裡較像比較與風險提醒，不是直接做淡或做多指令。"
+        }
+      ],
+      "core_thesis": {
+        "會議姿態與實際成果": "今次習特會在禮遇與政治姿態上聲勢很大，但真正可量化的經貿成果遠低於市場最樂觀預期。",
+        "修昔底德陷阱與台灣紅線": "習近平再次公開提『修昔底德陷阱』，加上台灣紅線的講法，反映雙方結構性競爭並無因會面而改寫。",
+        "科技限制未解": "就算 H200 等個別限制看似有鬆動，中美科技博弈的根問題仍在，本土替代與限制反限制會繼續發生。",
+        "中國內部失衡": "中國外部國力敘事仍強，但內部青年失業、房地產、股市與居民資產回報問題未解，這些比外交畫面更值得關注。"
+      },
+      "investment_mindset": {
+        "philosophy": "區分『外交姿態』與『可交易的基本面改變』，不要把政治畫面直接等同盈利改善。",
+        "distinctions": [
+          "分清 headline 利好同實際落地金額。",
+          "分清政策示好、結構競爭與真正需求恢復。",
+          "分清 nation-level 強勢同居民資產回報弱勢。"
+        ],
+        "process": [
+          "先看會後有冇可驗證數字，再決定市場反應是否合理。",
+          "對半導體與中國概念股，要同時看政策、需求與本土替代三條線。"
+        ]
+      },
+      "personal_insights": [
+        "片中最有價值的不是『邊隻股受惠』，而是提醒市場不要被高規格接待與 CEO 合照誤導。",
+        "講者對中美短期降溫持開放態度，但明顯不相信這代表根本矛盾已經解決。",
+        "對中國經濟的看法相當兩極：國家層面有進步，但居民層面的資產與就業壓力仍然刺眼。"
+      ],
+      "insights": [
+        "片中最有價值的不是『邊隻股受惠』，而是提醒市場不要被高規格接待與 CEO 合照誤導。",
+        "講者對中美短期降溫持開放態度，但明顯不相信這代表根本矛盾已經解決。",
+        "對中國經濟的看法相當兩極：國家層面有進步，但居民層面的資產與就業壓力仍然刺眼。"
+      ],
+      "bull_cases": {
+        "氣氛改善": {
+          "thesis": "若後續真的建立貿易 / 投資協調機制，中美短線摩擦有機會降溫，市場可先交易風險溢價回落。",
+          "trigger": "更多正式協議、關稅細節、後續峰會安排"
+        },
+        "科技限制局部放寬": {
+          "thesis": "若 H200、設備或供應鏈限制出現更清晰放寬，部分 AI / 半導體標的會先受市場追捧。",
+          "trigger": "出口許可、企業採購、監管口徑"
+        }
+      },
+      "bear_cases": {
+        "成果不及預期": {
+          "thesis": "若會後證明大部分成果只是姿態管理，市場會回吐過度樂觀定價。",
+          "specifics": [
+            "講者明言實際成果與外界吹風的一萬億美元落差很大。",
+            "波音、牛肉等更多像象徵性交易，而非全面經濟修復。"
+          ],
+          "trigger_for_reassessment": "後續公布可驗證的正式合約與執行進度。"
+        },
+        "結構矛盾持續": {
+          "thesis": "台灣、科技封鎖、本土替代與地緣競爭繼續存在，會限制任何『全面和好』敘事。",
+          "specifics": [
+            "習近平再次把台灣明確列為紅線。",
+            "半導體自主化與限制反限制未見真正逆轉。"
+          ],
+          "trigger_for_reassessment": "若雙方在科技或安全議題上有實質突破，才值得改觀。"
+        }
+      },
+      "catalysts": {
+        "positive": [
+          "後續若真有 board of trade / board of investment 類機制落地，市場會再上修樂觀預期。",
+          "若中國大型雲廠商正式恢復採購 AI 晶片，相關美股敘事會轉強。"
+        ],
+        "negative": [
+          "如果關稅、301、科技限制沒有實際鬆動，會後樂觀情緒容易消退。",
+          "若青年失業與內需疲弱繼續惡化，中國資產的估值修復空間仍受壓。"
+        ]
+      },
+      "risks": {
+        "geopolitical_risks": [
+          "台灣與科技安全議題仍然是高烈度風險源。"
+        ],
+        "policy_risks": [
+          "放寬傳聞未必等於正式政策，市場容易先炒後失望。"
+        ],
+        "structural_risks": [
+          "中國居民資產回報、房地產與青年就業問題未見根治。"
+        ]
+      },
+      "logic_chains": [
+        {
+          "topic": "高規格接待不等於高質量成果",
+          "premise_facts": [
+            "美方帶來大量高層與 CEO，外交場面極高規格。",
+            "但可驗證的貿易與投資成果低於市場此前樂觀吹風。"
+          ],
+          "reasoning_chain": "政治畫面很強 → 市場容易先解讀為全面改善 → 但若缺乏可量化協議與執行細節 → 樂觀情緒會回吐。",
+          "speaker_conclusion": "今次更像氣氛管理，而不是徹底扭轉中美競爭關係。",
+          "confidence": "high",
+          "action": "交易上先分清 sentiment rally 同真正基本面改善。"
+        },
+        {
+          "topic": "科技限制局部鬆動仍受結構約束",
+          "premise_facts": [
+            "H200 對華銷售消息再被提出。",
+            "但中國官方態度、民企採購意願與本土替代同時存在。"
+          ],
+          "reasoning_chain": "表面鬆動限制 → 不代表需求立即恢復 → 若中國繼續推本土替代 → 海外龍頭中國敘事仍受限。",
+          "speaker_conclusion": "半導體相關消息可以炒，但不能當成單向確定利好。",
+          "confidence": "high",
+          "action": "看實際採購與產業鏈數據，不要只追 headline。"
+        }
+      ],
+      "portfolio_application": {
+        "macro_takeaway": "這條片更適合用來調整對中美風險溢價的理解，而不是直接抄股票名單。",
+        "practical_action": "對受政策消息帶動的中概、AI、半導體股，宜分注、等確認，不宜見 headline 就追。",
+        "note": "如果之後無更多可驗證成果，最好把會後短線亢奮當成情緒而非新長牛起點。"
+      },
+      "open_questions": {
+        "data_to_verify": [
+          "實際落地的貿易 / 投資協議金額有幾多？",
+          "中國大型科技企業會否真正恢復採購 H200？",
+          "301、設備限制、記憶體相關限制會否出現更具體變化？"
+        ],
+        "next_trigger": [
+          "後續峰會、官方公告、企業採購消息。"
+        ],
+        "stress_test": [
+          "如果一兩星期後市場再找不到新成果，代表這輪上升主要靠氣氛而非基本面。"
+        ]
+      },
+      "notes": "已人工修正。原始 auto-import 使用錯誤英文字幕；本版改用 yue-orig 廣東話字幕重新整理。",
+      "transcript_quality": {
+        "source_used": "yue-orig.vtt",
+        "transcript_language": "Cantonese",
+        "original_auto_import_issue": "wrong English subtitle track produced misleading summary",
+        "manual_reviewed": true
+      },
+      "companies": [
+        "Boeing",
+        "NVIDIA",
+        "Micron Technology",
+        "騰訊",
+        "阿里巴巴",
+        "京東",
+        "YMTC",
+        "CATL"
+      ],
+      "sectors": [
+        "宏觀經濟",
+        "地緣政治",
+        "半導體",
+        "科技",
+        "航空"
+      ],
+      "themes": [
+        "中美關係",
+        "修昔底德陷阱",
+        "AI晶片限制",
+        "中國經濟失衡",
+        "青年失業"
+      ],
+      "tickers": [
+        "BA",
+        "NVDA",
+        "MU",
+        "0700.HK",
+        "BABA"
+      ],
+      "created_at": "2026-05-18T11:58:36+01:00",
+      "updated_at": "2026-05-18T12:10:00+01:00"
+    },
+    {
       "id": "ent-20260516-114933-LHNnNK2FRkQ",
       "title": "KP@FOMO研究院：美股業績(Googl, Amzn, MSFT, Meta), 記憶體(三星）, CPU(ARM, AMD, INTC), 光通信、NVDA, 銅, LNG / 報名KP及未來活動",
       "source_name": "Invest for Good長知識 🌈",
@@ -15222,7 +15468,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 5
+      "entry_count": 6
     },
     {
       "id": "comp-42",
@@ -15254,7 +15500,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 11
+      "entry_count": 12
     },
     {
       "id": "comp-46",
@@ -15278,7 +15524,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 6
+      "entry_count": 7
     },
     {
       "id": "comp-49",
@@ -15830,7 +16076,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 15
+      "entry_count": 16
     },
     {
       "id": "comp-118",
@@ -15870,7 +16116,7 @@
       "ticker": "",
       "aliases": [],
       "sector_ids": [],
-      "entry_count": 12
+      "entry_count": 13
     },
     {
       "id": "comp-123",
@@ -15943,7 +16189,7 @@
     {
       "id": "sector-11",
       "name": "半導體",
-      "entry_count": 8
+      "entry_count": 9
     },
     {
       "id": "sector-12",
@@ -15978,7 +16224,7 @@
     {
       "id": "sector-18",
       "name": "宏觀經濟",
-      "entry_count": 30
+      "entry_count": 31
     },
     {
       "id": "sector-19",
@@ -16128,7 +16374,7 @@
     {
       "id": "sector-48",
       "name": "科技",
-      "entry_count": 30
+      "entry_count": 31
     },
     {
       "id": "sector-49",
@@ -16158,7 +16404,7 @@
     {
       "id": "sector-54",
       "name": "股票/港股",
-      "entry_count": 29
+      "entry_count": 30
     },
     {
       "id": "sector-55",
@@ -16270,7 +16516,7 @@
     {
       "id": "theme-3",
       "name": "AI",
-      "entry_count": 28
+      "entry_count": 29
     },
     {
       "id": "theme-4",
@@ -16425,7 +16671,7 @@
     {
       "id": "theme-34",
       "name": "利率",
-      "entry_count": 3
+      "entry_count": 4
     },
     {
       "id": "theme-35",
@@ -16570,7 +16816,7 @@
     {
       "id": "theme-63",
       "name": "投資策略",
-      "entry_count": 35
+      "entry_count": 36
     },
     {
       "id": "theme-64",
@@ -16685,7 +16931,7 @@
     {
       "id": "theme-86",
       "name": "流動性",
-      "entry_count": 2
+      "entry_count": 3
     },
     {
       "id": "theme-87",
