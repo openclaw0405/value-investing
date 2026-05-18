@@ -112,11 +112,11 @@ a { color: #8bd5ff; }
 
 /* ---------- Report shell ---------- */
 .shell {
-  max-width: 1560px;
+  max-width: 1440px;
   margin: 0 auto;
   min-height: 100vh;
   display: grid;
-  grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+  grid-template-columns: minmax(290px, 330px) minmax(0, 1fr);
 }
 .sidebar {
   position: sticky;
@@ -186,13 +186,13 @@ a { color: #8bd5ff; }
 }
 .content {
   min-width: 0;
-  padding: clamp(14px, 2.2vw, 28px);
+  padding: clamp(16px, 3vw, 32px);
 }
 .report-card,
 .container {
-  max-width: 1120px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: clamp(18px, 2.4vw, 28px);
+  padding: clamp(18px, 3vw, 28px);
 }
 .report-card h1,
 .container h1 {
@@ -309,20 +309,6 @@ tbody tr:hover { background: rgba(125, 211, 252, 0.03); }
   font-size: 13px;
 }
 
-/* ---------- Tablet / narrow laptop ---------- */
-@media (max-width: 1180px) {
-  .shell {
-    grid-template-columns: 1fr;
-  }
-  .sidebar {
-    position: static;
-    top: auto;
-    height: auto;
-    border-right: none;
-    border-bottom: 1px solid var(--line);
-  }
-}
-
 /* ---------- Mobile ---------- */
 @media (max-width: 768px) {
   .wrap {
@@ -336,16 +322,33 @@ tbody tr:hover { background: rgba(125, 211, 252, 0.03); }
     grid-template-columns: 1fr;
   }
   .sidebar {
-    display: none;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 12px 10px;
+  }
+  .toc {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .toc a {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 7px 10px;
   }
   .content {
-    padding: 10px;
+    padding: 12px;
   }
   .report-card,
   .container {
-    padding: 16px 14px;
-    border-radius: 18px;
-    max-width: 100%;
+    padding: 16px;
+    border-radius: 20px;
   }
   .card,
   .hero,
@@ -353,14 +356,14 @@ tbody tr:hover { background: rgba(125, 211, 252, 0.03); }
   .container,
   .sidebar-card,
   .header {
-    border-radius: 18px;
+    border-radius: 20px;
   }
   .table-wrap {
-    margin-left: -2px;
-    margin-right: -2px;
+    margin-left: -4px;
+    margin-right: -4px;
   }
   table {
-    min-width: 480px;
+    min-width: 520px;
   }
 }
 
